@@ -950,7 +950,7 @@ export const workExperience = [
     title: "FULL web Application",
     titleArab: "تطبيقات كاملة (mySQL and react or Next Js Stack)",
     titleFrecn: "تطبيقات MySQL كاملة",
-    desc: "i can create FULL Stack mySQL Applications",
+    desc: "i can create FULL Stack Applications",
     descArab:"",
     descFrench:"",
     className: "md:col-span-2", // change to md:col-span-2
