@@ -579,364 +579,364 @@ export const projects = [
 
 // ui ideas for the user that may have
 
-// export const projects2 = [
-//   {
-//     title: "Ecommerce",
-//     titleArab:"متجر الكتروني",
-//     titleFrench:"",
-//     description:
-//       "click to Explore the design",
-//     descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "Building Company",
-//     titleArab:"شركة بناء",
-//     titleFrench:"Entreprise de construction",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "cake shop",
-//     titleArab:"محل كيك",
-//     titleFrench:"Pâtisserie",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://google.com",
-//   },
-//   {
-//     title: "Carpenter",
-//     titleArab:"نجار",
-//     titleFrench:"Charpentier",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://meta.com",
-//   },
-//   {
-//     title: "car repair",
-//     titleArab:"إصلاح السيارات",
-//     titleFrench:"Réparation de voitures",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://amazon.com",
-//   },
-//   {
-//     title: "Coffe Shop",
-//     titleArab:"مقهى",
-//     titleFrench:"Café",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://microsoft.com",
-//   },
-//   {
-//     title: "construction company",
-//     titleArab:"شركة بناء",
-//     titleFrench:" Entreprise de construction",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "GYM",
-//     titleArab:"صالة رياضية",
-//     titleFrench:"Gymnase",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "food ordering",
-//     titleArab:"طلب الطعام",
-//     titleFrench:" Commande de nourriture",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://google.com",
-//   },
-//   {
-//     title: "school",
-//     titleArab:"مدرسة",
-//     titleFrench:"École",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://meta.com",
-//   },
-//   {
-//     title: "Julery shop",
-//     titleArab:"محل مجوهرات",
-//     titleFrench:"Bijouterie",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://amazon.com",
-//   },
-//   {
-//     title: "medicine shop",
-//     titleArab:"صيدلية",
-//     titleFrench:"Pharmacie",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://microsoft.com",
-//   },
-//   {
-//     title: "painting company",
-//     titleArab:" شركة دهان",
-//     titleFrench:"Entreprise de peinture",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "Presentation for Mobile App",
-//     titleArab:"عرض تقديمي لتطبيق جوال",
-//     titleFrench:"Présentation pour application mobile",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "rent car agency",
-//     titleArab:"وكالة تأجير السيارات",
-//     titleFrench:"Agence de location de voitures",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://google.com",
-//   },
-//   {
-//     title: "wordprees developer",
-//     titleArab:"مطور ووردبريس",
-//     titleFrench:"Développeur WordPress",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://meta.com",
-//   },
-//   {
-//     title: "Sketching Artist",
-//     titleArab:"فنان رسم توضيحي",
-//     titleFrench:"Dessinateur",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://amazon.com",
-//   },
-//   {
-//     title: "Building company",
-//     titleArab:"شركة بناء",
-//     titleFrench:"Entreprise de construction",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://microsoft.com",
-//   },
-//   {
-//     title: "Artist portfolio",
-//     titleArab:"محفظة فنان",
-//     titleFrench:"Portfolio d'artiste",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "Designer potfolio",
-//     titleArab:"محفظة مصمم",
-//     titleFrench:"Portfolio de designer",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
+export const projects2 = [
+  {
+    title: "Ecommerce",
+    titleArab:"متجر الكتروني",
+    titleFrench:"",
+    description:
+      "click to Explore the design",
+    descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://stripe.com",
+  },
+  {
+    title: "Building Company",
+    titleArab:"شركة بناء",
+    titleFrench:"Entreprise de construction",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://netflix.com",
+  },
+  {
+    title: "cake shop",
+    titleArab:"محل كيك",
+    titleFrench:"Pâtisserie",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://google.com",
+  },
+  {
+    title: "Carpenter",
+    titleArab:"نجار",
+    titleFrench:"Charpentier",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://meta.com",
+  },
+  {
+    title: "car repair",
+    titleArab:"إصلاح السيارات",
+    titleFrench:"Réparation de voitures",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://amazon.com",
+  },
+  {
+    title: "Coffe Shop",
+    titleArab:"مقهى",
+    titleFrench:"Café",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://microsoft.com",
+  },
+  {
+    title: "construction company",
+    titleArab:"شركة بناء",
+    titleFrench:" Entreprise de construction",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://stripe.com",
+  },
+  {
+    title: "GYM",
+    titleArab:"صالة رياضية",
+    titleFrench:"Gymnase",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://netflix.com",
+  },
+  {
+    title: "food ordering",
+    titleArab:"طلب الطعام",
+    titleFrench:" Commande de nourriture",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://google.com",
+  },
+  {
+    title: "school",
+    titleArab:"مدرسة",
+    titleFrench:"École",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://meta.com",
+  },
+  {
+    title: "Julery shop",
+    titleArab:"محل مجوهرات",
+    titleFrench:"Bijouterie",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://amazon.com",
+  },
+  {
+    title: "medicine shop",
+    titleArab:"صيدلية",
+    titleFrench:"Pharmacie",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://microsoft.com",
+  },
+  {
+    title: "painting company",
+    titleArab:" شركة دهان",
+    titleFrench:"Entreprise de peinture",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://stripe.com",
+  },
+  {
+    title: "Presentation for Mobile App",
+    titleArab:"عرض تقديمي لتطبيق جوال",
+    titleFrench:"Présentation pour application mobile",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://netflix.com",
+  },
+  {
+    title: "rent car agency",
+    titleArab:"وكالة تأجير السيارات",
+    titleFrench:"Agence de location de voitures",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://google.com",
+  },
+  {
+    title: "wordprees developer",
+    titleArab:"مطور ووردبريس",
+    titleFrench:"Développeur WordPress",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://meta.com",
+  },
+  {
+    title: "Sketching Artist",
+    titleArab:"فنان رسم توضيحي",
+    titleFrench:"Dessinateur",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://amazon.com",
+  },
+  {
+    title: "Building company",
+    titleArab:"شركة بناء",
+    titleFrench:"Entreprise de construction",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://microsoft.com",
+  },
+  {
+    title: "Artist portfolio",
+    titleArab:"محفظة فنان",
+    titleFrench:"Portfolio d'artiste",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://stripe.com",
+  },
+  {
+    title: "Designer potfolio",
+    titleArab:"محفظة مصمم",
+    titleFrench:"Portfolio de designer",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://netflix.com",
+  },
   
-//   {
-//     title: "Hotel wesite",
-//     titleArab:"موقع فندق",
-//     titleFrench:"Site web d'hôtel",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "Hospital webcite",
-//     titleArab:"موقع مستشفى",
-//     titleFrench:" Site web d'hôpital",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "Photo grapher potfolio",
-//     titleArab:"محفظة مصور فوتوغرافي",
-//     titleFrench:"Portfolio de photographe",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "welding servises",
-//     titleArab:"خدمات اللحام",
-//     titleFrench:"Services de soudage",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
+  {
+    title: "Hotel wesite",
+    titleArab:"موقع فندق",
+    titleFrench:"Site web d'hôtel",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://netflix.com",
+  },
+  {
+    title: "Hospital webcite",
+    titleArab:"موقع مستشفى",
+    titleFrench:" Site web d'hôpital",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://netflix.com",
+  },
+  {
+    title: "Photo grapher potfolio",
+    titleArab:"محفظة مصور فوتوغرافي",
+    titleFrench:"Portfolio de photographe",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://netflix.com",
+  },
+  {
+    title: "welding servises",
+    titleArab:"خدمات اللحام",
+    titleFrench:"Services de soudage",
+    description:
+      "click to Explore the design",
+      descriptionArabic:
+      "انقر لاستكشاف التصميم",
+      descriptionFrench:
+      "Cliquez pour explorer le design",
+    link: "https://stripe.com",
+  },
   
-// ];
+];
 
-// export const testimonials = [
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-//   {
-//     quote:
-//       "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-//     name: "Michael Johnson",
-//     title: "Director of AlphaStream Technologies",
-//   },
-// ];
+export const testimonials = [
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+  {
+    quote:
+      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Michael Johnson",
+    title: "Director of AlphaStream Technologies",
+  },
+];
 
-// export const companies = [
-//   {
-//     id: 1,
-//     name: "cloudinary",
-//     img: "/cloud.svg",
-//     nameImg: "/cloudName.svg",
-//   },
-//   {
-//     id: 2,
-//     name: "appwrite",
-//     img: "/app.svg",
-//     nameImg: "/appName.svg",
-//   },
-//   {
-//     id: 3,
-//     name: "HOSTINGER",
-//     img: "/host.svg",
-//     nameImg: "/hostName.svg",
-//   },
-//   {
-//     id: 4,
-//     name: "stream",
-//     img: "/s.svg",
-//     nameImg: "/streamName.svg",
-//   },
-//   {
-//     id: 5,
-//     name: "docker.",
-//     img: "/dock.svg",
-//     nameImg: "/dockerName.svg",
-//   },
-// ];
+export const companies = [
+  {
+    id: 1,
+    name: "cloudinary",
+    img: "/cloud.svg",
+    nameImg: "/cloudName.svg",
+  },
+  {
+    id: 2,
+    name: "appwrite",
+    img: "/app.svg",
+    nameImg: "/appName.svg",
+  },
+  {
+    id: 3,
+    name: "HOSTINGER",
+    img: "/host.svg",
+    nameImg: "/hostName.svg",
+  },
+  {
+    id: 4,
+    name: "stream",
+    img: "/s.svg",
+    nameImg: "/streamName.svg",
+  },
+  {
+    id: 5,
+    name: "docker.",
+    img: "/dock.svg",
+    nameImg: "/dockerName.svg",
+  },
+];
 
 export const workExperience = [
   {

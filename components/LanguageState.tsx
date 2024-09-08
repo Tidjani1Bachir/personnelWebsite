@@ -1,14 +1,14 @@
-import React from 'react';
+// import React from 'react';
 
-interface LanguageStateProps {
-  language: string;
-  setLanguage: (language: string) => void;
-}
+// interface LanguageStateProps {
+//   language: string;
+//   setLanguage: (language: string) => void;
+// }
 
-const LanguageState: React.FC<LanguageStateProps> = ({ language = 'english', setLanguage }) => {
-  return (
-    <div>LanguageState</div>
-  );
-};
+// const LanguageState: React.FC<LanguageStateProps> = ({ language = 'english', setLanguage }) => {
+//   return (
+//     <div>LanguageState</div>
+//   );
+// };
 
-export default LanguageState;
+// export default LanguageState;
