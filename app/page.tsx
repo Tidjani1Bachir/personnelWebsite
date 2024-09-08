@@ -18,13 +18,7 @@ import {PresentMain} from "@/components/PresentMain";
 // import {PresentBestProject} from "@/components/PresentBestProject";
 
 const Home = () => {
-  const [language, setLanguage] = useState( 'english' )
   
-  const changelanguage =(item:string) => {
-    // ()=>setLanguage(item.title)
-    setLanguage(item)
-    console.log(item);
-  }
   return (
     <div className="relative w-full">
        

@@ -17,10 +17,8 @@ import {
 } from "framer-motion";
 import Link from "next/link";
 import { useRef, useState } from "react";
-import LanguageState from "../LanguageState";
-interface LanguageState {
-  language: string;
-}
+
+
 
 export const FloatingDock = ({
   items,
@@ -91,7 +89,7 @@ const FloatingDockMobile = ({
                   key={item.title}
                   className="h-6 w-6 lg:w-7 lg:h-7 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center"
                 >
-                  <button onClick={()=>changelanguage(item.title)}>
+                  <button >
                   <div className="h-2 w-2 lg:w-3 lg:h-3">{item.icon}
                     
                     </div>
@@ -110,7 +108,7 @@ const FloatingDockMobile = ({
       >
         <MdLanguage  className=" text-neutral-500 dark:text-neutral-400" />
       </button>
-      <LanguageState language ={language} setLanguage={setLanguage} />
+      
     </div>
   );
 };
