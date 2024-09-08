@@ -6,7 +6,7 @@ import { PinContainer } from "./ui/Pin";
 import Link from 'next/link';
 const RecentProjects = () => {
   return ( 
-    <div className="py-20">
+    <div id ="projects" className="py-20">
       <h1 className="heading">
         A small selection of{" "}
         <span className="text-purple">recent web Applications projects</span>

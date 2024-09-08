@@ -1,10 +1,8 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Ideas ", link: "#testimonials" },
-  { name: "Best App", link: "#contact" },
-  { name: "Mobile ", link: "#contact" },
-  { name: "My approach ", link: "#contact" },
+  { name: "what i do ", link: "#whatIdo" },
+  { name: "My approach ", link: "#myApproach" },
   { name: "Contact", link: "#contact" },
 ];
 export const navItemsArabic = [

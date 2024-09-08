@@ -5,7 +5,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section  id="myApproach" className="w-full py-20">
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
@@ -16,7 +16,7 @@ const Approach = () => {
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
           des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
+          and key functionalities. We'll discuss things like the app structure, 
           navigation, and content requirements."
         >
           <CanvasRevealEffect
