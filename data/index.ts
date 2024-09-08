@@ -34,7 +34,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
   },
   {
@@ -219,213 +219,208 @@ export const products2 = [
   {
     title: "Moonbeam",
     link: "#",
-    thumbnail: "/restraunt1.png",
+    thumbnail: "./restraunt1.png",
   },
   {
     title: "Cursor",
     link: "#",
-    thumbnail: "/Ecomeerce Shop For serveral Projects.png",
+    thumbnail: "./Ecomeerce Shop For serveral Projects.png",
   },
   {
     title: "Rogue",
     link: "# " ,
-    thumbnail:  "/restraunt1.png",
+    thumbnail:  "./restraunt1.png",
   },
 
   {
     title: "Editorially",
     link: "#",
     thumbnail:
-      "/SimpleBootstrap.png",
+      "./SimpleBootstrap.png",
   },
   {
     title: "Editrix AI",
     link: "#",
-    thumbnail:  "/Book-store.png",
+    thumbnail:  "./Book-store.png",
   },
   {
     title: "Pixel Perfect",
     link: "#",
     thumbnail:
-      "/Cake-shope-scss.png",
+      "./Cake-shope-scss.png",
   },
 
   {
     title: "Algochurn",
     link: "#",
-    thumbnail: "/painting shop.png",
+    thumbnail: "./painting shop.png",
   },
   {
     title: "Aceternity UI",
     link: "#",
     thumbnail:
-      "/booking housees.png",
+      "./booking housees.png",
   },
   {
     title: "Tailwind Master Kit",
     link: "#",
     thumbnail:
-      "/car repair services.png",
+      "./car repair services.png",
   },
   {
     title: "SmartBridge",
     link: "#",
     thumbnail:
-      "/coffe shop.png",
+      "./coffe shop.png",
   },
   {
     title: "Renderwork Studio",
     link: "#",
     thumbnail:
-      "/ecommerce--shop.png",
+      "./ecommerce--shop.png",
   },
 
   {
     title: "Creme Digital",
     link: "#",
     thumbnail:
-      "/coffe shop.png",
+      "./coffe shop.png",
   },
   {
     title: "Golden Bells Academy",
     link: "#",
     thumbnail:
-      "/carpenter--shop.png",
+      "./carpenter--shop.png",
   },
   {
     title: "Invoker Labs",
     link: "#",
     thumbnail:
-      "/car repaired shop.png",
+      "./car repaired shop.png",
   },
   {
     title: "E Free Invoice",
     link: "",
     thumbnail:
-      "/Mobile App Presentation.png",
+      "./Mobile App Presentation.png",
   },
   {
     title: "Aceternity UI",
     link: "#",
     thumbnail:
-      "/admin-dashboard---2.png",
+      "./admin-dashboard---2.png",
   },
   {
     title: "Tailwind Master Kit",
     link: "#",
     thumbnail:
-      "/Book-store.png",
+      "./Book-store.png",
   },
   {
     title: "SmartBridge",
     link: "#",
     thumbnail:
-      "/building--app.png",
+      "./building--app.png",
   },
   {
     title: "Renderwork Studio",
     link: "#",
     thumbnail:
-      "/car app using api to fetch cars.png",
+      "./car app using api to fetch cars.png",
   },
 
   {
     title: "Creme Digital",
     link: "#",
     thumbnail:
-      "/ecommerce--shop.png",
+      "./ecommerce--shop.png",
   },
   {
     title: "Golden Bells Academy",
     link: "#",
     thumbnail:
-      "/fast food delivery.png",
+      "./fast food delivery.png",
   },
   {
     title: "Invoker Labs",
     link: "#",
     thumbnail:
-      "/carpenter--shop.png",
+      "./carpenter--shop.png",
   },
   {
     title: "E Free Invoice",
     link: "",
     thumbnail:
-      "/graphic designer 22 potfolio.png",
+      "./graphic designer 22 potfolio.png",
   },
 
-  {
-    title: "Creme Digital",
-    link: "#",
-    thumbnail:
-      "/",
-  },
+  
   {
     title: "HooBankDesign.png",
     link: "#",
     thumbnail:
-      "/carpenter--shop.png",
+      "./carpenter--shop.png",
   },
   {
     title: "Invoker Labs",
     link: "#",
     thumbnail:
-      "/ModernPortfolio Website.png",
+      "./ModernPortfolio Website.png",
   },
   {
     title: "E Free Invoice",
     link: "",
     thumbnail:
-      "/mehcanics store.png",
+      "./mehcanics store.png",
   },
   {
     title: "Aceternity UI",
     link: "#",
     thumbnail:
-      "/ui for Platform to showcase a profuct of company.png",
+      "./ui for Platform to showcase a profuct of company.png",
   },
   {
     title: "Tailwind Master Kit",
     link: "#",
     thumbnail:
-      "/restraunt1.png",
+      "./restraunt1.png",
   },
   {
     title: "SmartBridge",
     link: "#",
     thumbnail:
-      "/rent car 2.png",
+      "./rent car 2.png",
   },
   {
     title: "Renderwork Studio",
     link: "#",
     thumbnail:
-      "/photo grapher potfolio.png",
+      "./photo grapher potfolio.png",
   },
 
   {
     title: "Creme Digital",
     link: "#",
     thumbnail:
-      "/painting shop.png",
+      "./painting shop.png",
   },
   {
     title: "Golden Bells Academy",
     link: "#",
     thumbnail:
-      "/Modern Jquery potfolio.png",
+      "./Modern Jquery potfolio.png",
   },
   {
     title: "Invoker Labs",
     link: "#",
     thumbnail:
-      "/Kasper.png",
+      "./Kasper.png",
   },
   {
     title: "E Free Invoice",
     link: "",
     thumbnail:
-      "/Book-store.png",
+      "./Book-store.png",
   },
 ];
 
@@ -455,7 +450,7 @@ export const projects = [
     des: "This is a UI designed with HTML, CSS, and Tailwind CSS for businesses offering a specific service. I can customize it to match your unique business concept.",
     desArab:"هذه واجهة مستخدم مصممة باستخدام HTML وCSS وTailwind CSS للشركات التي تقدم خدمة معينة. يمكنني تخصيصها لتتناسب مع مفهوم عملك الفريد.",
     desFrecnh:"Il s'agit d'une interface utilisateur conçue avec HTML, CSS et Tailwind CSS pour les entreprises proposant un service spécifique. Je peux la personnaliser pour correspondre à votre concept d'entreprise unique.",
-    img: "/ui for Platform to showcase a profuct of company.png",
+    img: "./ui for Platform to showcase a profuct of company.png",
     
     link: "https://tidjani1bachir.github.io/prototype-for-a-service-offrenig-platform/",
   },
@@ -909,32 +904,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "./host.svg",
+    nameImg: "./hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "./s.svg",
+    nameImg: "./streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
   },
 ];
 
@@ -980,6 +975,6 @@ export const socialMedia = [
 
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
   },
 ];
