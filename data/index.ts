@@ -2,7 +2,8 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "what i do ", link: "#whatIdo" },
-  { name: "My approach ", link: "#myApproach" },
+  
+{ name: "My approach ", link: "#myApproach" },
   { name: "Contact", link: "#contact" },
 ];
 export const navItemsArabic = [
@@ -970,9 +971,13 @@ export const workExperience = [
 
 export const socialMedia = [
   
-
   {
+    id: 1,
+    img: "./git.svg",
+    link:"https://github.com/Tidjani1Bachir",
+  },  {
     id: 3,
     img: "./link.svg",
+    link:"https://www.linkedin.com/in/tidjani-bachir-b27861226/",
   },
 ];
