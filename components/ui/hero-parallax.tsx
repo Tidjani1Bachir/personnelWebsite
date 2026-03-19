@@ -108,7 +108,7 @@ export const Header = () => {
       I can build any Application that matches your vision   <br /> 
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-      whether it's a portfolio, e-commerce store, mobile app, desktop application, or more. 
+      whether it&apos;s a portfolio, e-commerce store, web app, desktop application, or more. 
       </p>
     </div>
   );

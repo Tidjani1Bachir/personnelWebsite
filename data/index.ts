@@ -442,7 +442,7 @@ export const products2 = [
   { title: "Creme Digital", link: "#", thumbnail: "./building--app.png" },
   { title: "Golden Bells Academy", link: "#", thumbnail: "./carpenter--shop.png" },
   { title: "Invoker Labs", link: "#", thumbnail: "./car repaired shop.png" },
-  { title: "E Free Invoice", link: "", thumbnail: "./Mobile App Presentation.png" },
+  { title: "E Free Invoice", link: "#", thumbnail: "./Mobile App Presentation.png" },
   { title: "Aceternity UI 2", link: "#", thumbnail: "./admin-dashboard---2.png" },
   { title: "Tailwind Master Kit 2", link: "#", thumbnail: "./Book-store.png" },
   { title: "SmartBridge 2", link: "#", thumbnail: "./building--app.png" },
@@ -450,10 +450,10 @@ export const products2 = [
   { title: "Creme Digital 2", link: "#", thumbnail: "./ecommerce--shop.png" },
   { title: "Golden Bells Academy 2", link: "#", thumbnail: "./fast food delivery.png" },
   { title: "Invoker Labs 2", link: "#", thumbnail: "./carpenter--shop.png" },
-  { title: "E Free Invoice 2", link: "", thumbnail: "./graphic designer 22 potfolio.png" },
+  { title: "E Free Invoice 2", link: "#", thumbnail: "./graphic designer 22 potfolio.png" },
   { title: "HooBankDesign", link: "#", thumbnail: "./carpenter--shop.png" },
   { title: "Invoker Labs 3", link: "#", thumbnail: "./ModernPortfolio Website.png" },
-  { title: "E Free Invoice 3", link: "", thumbnail: "./mehcanics store.png" },
+  { title: "E Free Invoice 3", link: "#", thumbnail: "./mehcanics store.png" },
   { title: "Aceternity UI 3", link: "#", thumbnail: "./ui for Platform to showcase a profuct of company.png" },
   { title: "Tailwind Master Kit 3", link: "#", thumbnail: "./restraunt1.png" },
   { title: "SmartBridge 3", link: "#", thumbnail: "./rent car 2.png" },
@@ -461,7 +461,7 @@ export const products2 = [
   { title: "Creme Digital 3", link: "#", thumbnail: "./painting shop.png" },
   { title: "Golden Bells Academy 3", link: "#", thumbnail: "./Modern Jquery potfolio.png" },
   { title: "Invoker Labs 4", link: "#", thumbnail: "./Kasper.png" },
-  { title: "E Free Invoice 4", link: "", thumbnail: "./Book-store.png" },
+  { title: "E Free Invoice 4", link: "#", thumbnail: "./Book-store.png" },
 ];
 
 // ── Social Media ──────────────────────────────────────────────────────────────
