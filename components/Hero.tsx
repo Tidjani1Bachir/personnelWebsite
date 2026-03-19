@@ -68,7 +68,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Bachir, a Next.js Developer based in Algeria Blida.
+            Hi! I&apos;m Bachir, a Full stack Developer based in Algeria Blida.
           </p>
 
           {/* 

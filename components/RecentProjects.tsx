@@ -18,7 +18,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <Link href={item.link}>
-            <PinContainer
+            <div suppressHydrationWarning>
+<PinContainer
               title="click"
               href="#"
             >
@@ -73,6 +74,8 @@ const RecentProjects = () => {
                 </div>
               </div>
             </PinContainer>
+            </div>
+            
             </Link>
           </div>
         ))}

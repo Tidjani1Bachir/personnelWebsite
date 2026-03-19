@@ -1,34 +1,35 @@
+// ── Navigation ────────────────────────────────────────────────────────────────
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "all my services ", link: "#whatIdo" },
-  
-{ name: "My approach ", link: "#myApproach" },
+  { name: "Services", link: "#whatIdo" },
+  { name: "My Approach", link: "#myApproach" },
   { name: "Contact", link: "#contact" },
 ];
+
 export const navItemsArabic = [
   { name: "نبذة عني", link: "#about" },
   { name: "المشاريع", link: "#projects" },
-  { name: "الأفكار", link: "#testimonials" },
-  { name: "أفضل تطبيق", link: "#contact" },
-  { name: "الجوال", link: "#contact" },
-  { name: "نهجي", link: "#contact" },
+  { name: "خدماتي", link: "#whatIdo" },
+  { name: "نهجي", link: "#myApproach" },
   { name: "اتصل بنا", link: "#contact" },
 ];
+
 export const navItemsFrench = [
   { name: "À propos", link: "#about" },
   { name: "Projets", link: "#projects" },
-  { name: "Idées", link: "#testimonials" },
-  { name: "Meilleure application", link: "#contact" },
-  { name: "Mobile", link: "#contact" },
-  { name: "Mon approche", link: "#contact" },
+  { name: "Services", link: "#whatIdo" },
+  { name: "Mon approche", link: "#myApproach" },
   { name: "Contact", link: "#contact" },
 ];
+
+// ── Grid / Bento Items ────────────────────────────────────────────────────────
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "I prioritize client collaboration and open communication throughout every project.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm flexible with time zone communications — available for remote collaboration worldwide.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +50,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "React · Next.js · Node.js · MongoDB · TypeScript · Tailwind",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -58,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "Full-Stack developer passionate about security-first architecture and clean code.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -66,11 +67,10 @@ export const gridItems = [
     img: "./grid.svg",
     spareImg: "./b4.svg",
   },
-
   {
     id: 5,
-    title: "I can develop the front-end of your applications. ",
-    description: "This text is targeted towards tech companies.",
+    title: "I build complete full-stack applications — from REST APIs to responsive frontends.",
+    description: "MERN Stack · Next.js · TypeScript · Tailwind CSS",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -88,10 +88,11 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
 export const gridItemsArabic = [
   {
     id: 1,
-    title: "أُعطي الأولوية للتعاون مع العميل، وتعزيز التواصل المفتوح.",
+    title: "أُعطي الأولوية للتعاون مع العميل وأحرص على التواصل المفتوح في كل مرحلة من مراحل المشروع.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -101,7 +102,7 @@ export const gridItemsArabic = [
   },
   {
     id: 2,
-    title: "أستطيع العمل مع مناطق مختلفة حول العالم",
+    title: "أستطيع العمل مع مناطق زمنية مختلفة حول العالم — متاح للتعاون عن بُعد.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -111,8 +112,8 @@ export const gridItemsArabic = [
   },
   {
     id: 3,
-    title: "التقنيات التي يمكن العمل بها",
-    description: "احاول التطوير من نفسي بشكل مستمر",
+    title: "التقنيات التي أعمل بها",
+    description: "React · Next.js · Node.js · MongoDB · TypeScript · Tailwind",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -121,7 +122,7 @@ export const gridItemsArabic = [
   },
   {
     id: 4,
-    title: "احاول جاهدا ان اطور من نفسي",
+    title: "مطور Full-Stack شغوف ببناء تطبيقات آمنة وكود نظيف.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -129,11 +130,10 @@ export const gridItemsArabic = [
     img: "./grid.svg",
     spareImg: "./b4.svg",
   },
-
   {
     id: 5,
-    title: "يمكنني تطوير الواجهة الأمامية لتطبيقاتك.",
-    description: "هذا النص موجه لشركات البرمجة",
+    title: "أبني تطبيقات متكاملة من REST APIs إلى واجهات أمامية متجاوبة.",
+    description: "MERN Stack · Next.js · TypeScript · Tailwind CSS",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -151,10 +151,11 @@ export const gridItemsArabic = [
     spareImg: "",
   },
 ];
+
 export const gridItemsFrench = [
   {
     id: 1,
-    title: "Je privilégie la collaboration avec le client, en favorisant une communication ouverte. ",
+    title: "Je privilégie la collaboration avec le client et une communication ouverte à chaque étape du projet.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -164,7 +165,7 @@ export const gridItemsFrench = [
   },
   {
     id: 2,
-    title: "Je suis très flexible en matière de communication entre fuseaux horaires.",
+    title: "Je suis flexible sur les fuseaux horaires — disponible pour collaborer à distance dans le monde entier.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -175,7 +176,7 @@ export const gridItemsFrench = [
   {
     id: 3,
     title: "Ma stack technologique",
-    description: "Je cherche constamment à m'améliorer.",
+    description: "React · Next.js · Node.js · MongoDB · TypeScript · Tailwind",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -184,19 +185,18 @@ export const gridItemsFrench = [
   },
   {
     id: 4,
-    title: "Passionné de technologie avec une passion pour le développement.",
+    title: "Développeur Full-Stack passionné par l'architecture sécurisée et le code propre.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
+    img: "./grid.svg",
     spareImg: "./b4.svg",
   },
-
   {
     id: 5,
-    title: "Je peux développer le front-end de vos applications.",
-    description: "This text is targeted towards tech companies.",
+    title: "Je construis des applications complètes — des REST APIs aux interfaces frontend responsives.",
+    description: "MERN Stack · Next.js · TypeScript · Tailwind CSS",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -214,836 +214,267 @@ export const gridItemsFrench = [
     spareImg: "",
   },
 ];
-export const products2 = [
-  {
-    title: "Moonbeam",
-    link: "#",
-    thumbnail: "./restraunt1.png",
-  },
-  {
-    title: "Cursor",
-    link: "#",
-    thumbnail: "./Ecomeerce Shop For serveral Projects.png",
-  },
-  {
-    title: "Rogue",
-    link: "# " ,
-    thumbnail:  "./restraunt1.png",
-  },
 
-  {
-    title: "Editorially",
-    link: "#",
-    thumbnail:
-      "./SimpleBootstrap.png",
-  },
-  {
-    title: "Editrix AI",
-    link: "#",
-    thumbnail:  "./Book-store.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "#",
-    thumbnail:
-      "./Cake-shope-scss.png",
-  },
-
-  {
-    title: "Algochurn",
-    link: "#",
-    thumbnail: "./AdvancedEcomercceCite.png",
-  },
-  {
-    title: "Aceternity UI",
-    link: "#",
-    thumbnail:
-      "./booking housees.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "#",
-    thumbnail:
-      "./car repair services.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "#",
-    thumbnail:
-      "./coffe shop.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "#",
-    thumbnail:
-      "./ecommerce--shop.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "#",
-    thumbnail:
-      "./building--app.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "#",
-    thumbnail:
-      "./carpenter--shop.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "#",
-    thumbnail:
-      "./car repaired shop.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "",
-    thumbnail:
-      "./Mobile App Presentation.png",
-  },
-  {
-    title: "Aceternity UI",
-    link: "#",
-    thumbnail:
-      "./admin-dashboard---2.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "#",
-    thumbnail:
-      "./Book-store.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "#",
-    thumbnail:
-      "./building--app.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "#",
-    thumbnail:
-      "./car app using api to fetch cars.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "#",
-    thumbnail:
-      "./ecommerce--shop.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "#",
-    thumbnail:
-      "./fast food delivery.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "#",
-    thumbnail:
-      "./carpenter--shop.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "",
-    thumbnail:
-      "./graphic designer 22 potfolio.png",
-  },
-
-  
-  {
-    title: "HooBankDesign.png",
-    link: "#",
-    thumbnail:
-      "./carpenter--shop.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "#",
-    thumbnail:
-      "./ModernPortfolio Website.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "",
-    thumbnail:
-      "./mehcanics store.png",
-  },
-  {
-    title: "Aceternity UI",
-    link: "#",
-    thumbnail:
-      "./ui for Platform to showcase a profuct of company.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "#",
-    thumbnail:
-      "./restraunt1.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "#",
-    thumbnail:
-      "./rent car 2.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "#",
-    thumbnail:
-      "./photo grapher potfolio.png",
-  },
-
-  {
-    title: "Creme Digital",
-    link: "#",
-    thumbnail:
-      "./painting shop.png",
-  },
-  {
-    title: "Golden Bells Academy",
-    link: "#",
-    thumbnail:
-      "./Modern Jquery potfolio.png",
-  },
-  {
-    title: "Invoker Labs",
-    link: "#",
-    thumbnail:
-      "./Kasper.png",
-  },
-  {
-    title: "E Free Invoice",
-    link: "",
-    thumbnail:
-      "./Book-store.png",
-  },
-];
+// ── Main Projects (4 real deployed projects) ──────────────────────────────────
 
 export const projects = [
   {
     id: 1,
-    title: "personal dashboard ui to manage your clients and tasks and statistics of your work ",
-    titleArab:"لوحة معلومات شخصية لإدارة عملائك ومهامك وإحصائيات عملك",
-    titleFrench:"Tableau de bord personnel pour gérer vos clients, tâches et statistiques de votre travail.",
-    
-    des: "A complex UI design implemented using HTML and advanced CSS concepts such as animation, Grid, and Flexbox, ensuring full responsiveness.",
-    desArab:"تصميم واجهة مستخدم معقدة تم تنفيذه باستخدام HTML ومفاهيم CSS المتقدمة flex box و Grid",
-    desFrecnh:"Une conception d'interface utilisateur complexe implémentée à l'aide de HTML et de concepts CSS avancés tels que l'animation, Grid et Flexbox, garantissant une pleine réactivité.",
-    img: "./managementDashboard.png",
-    
-    link: " https://tidjani1bachir.github.io/tempalte-4/",
+    title: "ShopSphere — Full-Stack E-Commerce Platform",
+    titleArab: "ShopSphere — منصة تجارة إلكترونية متكاملة",
+    titleFrench: "ShopSphere — Plateforme E-Commerce Full-Stack",
+
+    des: "A production-grade MERN stack e-commerce platform with JWT authentication stored in HttpOnly cookies, bcrypt password hashing, 4-layer file upload validation (extension, MIME type, path traversal, malware scanning via ClamAV), PayPal SDK integration, RTK Query tag-based cache invalidation, hybrid localStorage/MongoDB favorites, and an admin dashboard with live ApexCharts analytics exportable to CSV/PNG/SVG.",
+    desArab: "منصة تجارة إلكترونية متكاملة باستخدام MERN Stack مع مصادقة JWT في HttpOnly cookies، تشفير كلمات المرور بـ bcrypt، تحقق رباعي الطبقات من ملفات الرفع، تكامل PayPal SDK، لوحة إدارة مع تحليلات ApexCharts.",
+    desFrecnh: "Plateforme e-commerce MERN complète avec authentification JWT en cookies HttpOnly, hachage bcrypt, validation d'upload en 4 couches, intégration PayPal SDK, et tableau de bord admin avec ApexCharts exportable CSV/PNG/SVG.",
+
+    img: "./shopsphere.png",
+    link: "https://shops-frontend.vercel.app",
+
+    tags: ["MongoDB", "Express", "React", "Node.js", "Redux Toolkit", "RTK Query", "Tailwind CSS", "PayPal SDK"],
   },
-  
   {
     id: 2,
-    title: "Template2",
-    titleArab:"نموذج 2",
-    titleFrench:"Modèle 3",
-    des: "A Next.js template leveraging Mux for video hosting. using vanilla css and fully responsive",
-    desArab:"قالب Next.js يستخدم Mux لاستضافة مقاطع الفيديو. يمكنني إنشاء تطبيق Next.js مخصص لعرض مقاطع الفيديو الخاصة بك.",
-    desFrecnh:"Modèle Next.js qui utilie Mux pour l'hébergement vidéo. Je peux créer une application Next.js personnalisée pour mettre en valeur vos vidéos.",
-    img: "./Kasper.png",
-    
-    link: "https://tidjani1bachir.github.io/Implimentation-Template-Kasper-html-css/",
+    title: "Product Manager — Web + Desktop App",
+    titleArab: "مدير المنتجات — تطبيق ويب + سطح مكتب",
+    titleFrench: "Product Manager — Application Web + Bureau",
+
+    des: "Cross-platform product manager built with React, TypeScript, Tauri, and Node.js/Express. Features full CRUD, drag-and-drop image upload, PDF export, Turso (cloud SQLite), and Cloudinary for image storage. Dual deployment: web app on Vercel and native desktop installers (.exe/.msi) via Tauri from a single codebase. Includes a complete test suite: 39/39 passing — Vitest + React Testing Library (unit), Playwright E2E across Chrome/Firefox/Safari, and node:test for REST API validation.",
+    desArab: "تطبيق مدير منتجات متعدد المنصات باستخدام React وTypeScript وTauri وNode.js. يتضمن CRUD كامل، رفع الصور، تصدير PDF، Turso وCloudinary. نشر مزدوج: ويب على Vercel وتطبيق سطح مكتب (.exe/.msi) من قاعدة كود واحدة. مجموعة اختبارات كاملة: 39/39.",
+    desFrecnh: "Gestionnaire de produits multiplateforme avec React, TypeScript, Tauri et Node.js/Express. CRUD complet, upload drag-and-drop, export PDF, Turso + Cloudinary. Déploiement double : web sur Vercel et installeur desktop (.exe/.msi) via Tauri. Suite de tests complète : 39/39.",
+
+    img: "./productmanager.png",
+    link: "https://product-manager-chi-eosin.vercel.app",
+
+    tags: ["React", "TypeScript", "Tauri", "Node.js", "Vitest", "Playwright", "Turso", "Cloudinary"],
   },
-  
   {
     id: 3,
-    title: "Hang man game",
-    titleArab:"لعبة الرجل المشنوق",
-    titleFrench:"Jeu du pendu",
-    des: "Hangman game built using vanilla JavaScript, featuring a popup library for displaying game results and fetching data from a JSON file. The objective is to guess a word from a specific category (movie, game, or book). If the player fails to guess the word correctly, the game ends with a depiction of a man being hanged. To learn more about the game, click here.",
-    desArab:"لعبة JavaScript Vanilla",
-    desFrecnh:"Jeu JavaScript vanille utilisant une bibliothèque popup et récupérant des données depuis un fichier JSON.",
-    img: "./hang-man-game.png",
-    
-    link: "https://tidjani1bachir.github.io/hangMan-Game-vanilla-Java-Script/",
+    title: "Shoppy — React Admin Dashboard",
+    titleArab: "Shoppy — لوحة إدارة React",
+    titleFrench: "Shoppy — Tableau de bord Admin React",
+
+    des: "A fully responsive admin dashboard built with React and Syncfusion EJ2, featuring 7 chart types (Line, Area, Bar, Pie, Financial, Color-Mapping, Stacked), sortable/filterable data grids, a Kanban board, rich text editor, color picker, and calendar scheduler. Implements dark/light theming with 6 live accent colors using React Context API and Tailwind CSS. Includes slide-in cart panel, notification feed, and user profile dropdown.",
+    desArab: "لوحة إدارة متجاوبة بالكامل باستخدام React وSyncfusion EJ2، تضم 7 أنواع من الرسوم البيانية، جداول بيانات قابلة للفرز والتصفية، لوحة Kanban، محرر نصوص، منتقي ألوان وتقويم. تدعم الوضع الداكن والفاتح مع 6 ألوان مخصصة.",
+    desFrecnh: "Tableau de bord admin responsive avec React et Syncfusion EJ2, incluant 7 types de graphiques, grilles de données, Kanban, éditeur de texte, sélecteur de couleurs et calendrier. Thème clair/sombre avec 6 couleurs d'accent via React Context API.",
+
+    img: "./adminApp.png",
+    link: "https://react-admin-dashboard-rbrf.vercel.app",
+
+    tags: ["React", "Syncfusion EJ2", "Tailwind CSS", "React Context API"],
   },
   {
     id: 4,
-    title: "Telmplate3",
-    titleArab:"نموذخ 3",
-    titleFrench:"Modèle 3",
-    des: "Template 3 is a fully-featured web application design, incorporating key components such as payment sections, testimonials, hero content, landing pages, team information, contact details, video embeds, services, team members, events, and a scroll-to-top button. It also includes a customizable mega menu for seamless navigation. The user experience is further enhanced by advanced CSS animations.and css pseudo elements implimentation and advanced grid and flex box with a javascript function to show the mega menu",
-    desArab:"القالب 3 عبارة عن تنفيذ تصميم شامل يضم مكونات أساسية لتطبيق الويب. وهو يتضمن أقسامًا للمدفوعات، والشهادات، والمحتوى الرئيسي، وصفحة الوصول، والفريق، ومعلومات الاتصال، ومقاطع الفيديو، والخدمات، وأعضاء الفريق، والأحداث، وزر التمرير إلى الأعلى، وقائمة ضخمة قابلة للتخصيص للتنقل بكفاءة. تعمل الرسوم المتحركة المتقدمة بتقنية CSS على تحسين تجربة المستخدم.",
-    desFrecnh:"Le modèle 3 est une implémentation de design complète comprenant des composants essentiels d'applications web. Il inclut des sections pour les paiements, les témoignages, le contenu principal, la page de destination, l'équipe, les informations de contact, les vidéos, les services, les membres de l'équipe, les événements, un bouton de défilement vers le haut et un méga menu personnalisable pour une navigation efficace. Les animations CSS avancées améliorent l'expérience utilisateur.",
+    title: "Portfolio Landing Page — Based on ElzeroWebSchool Template",
+    titleArab: "صفحة هبوط — مبنية على قالب ElzeroWebSchool",
+    titleFrench: "Page de destination — Basée sur le template ElzeroWebSchool",
+
+    des: "A Next.js 14 implementation of a ready-made HTML/CSS template originally created by the GitHub user ElzeroWebSchool. Rebuilt as a fully interactive single-page app with 12+ sections: Articles, Gallery, Features, Testimonials, Team Members, Services, Skills progress bars, How It Works, Latest Events (animated counters), Pricing Plans, Top Videos, and Discount form. Adds a fixed scroll progress bar, smooth useRef-based navigation, intersection-triggered animated counters, client-side form validation with color-coded feedback, and reusable CSS animation systems on top of the original design.",
+    desArab: "تطبيق Next.js 14 لقالب HTML/CSS جاهز أصلاً من إنشاء مستخدم GitHub المعروف بـ ElzeroWebSchool. أُعيد بناؤه كتطبيق أحادي الصفحة تفاعلي بأكثر من 12 قسمًا مع شريط تقدم التمرير، تنقل سلس، عدادات متحركة، تحقق من النماذج، ونظام رسوم متحركة CSS.",
+    desFrecnh: "Implémentation Next.js 14 d'un template HTML/CSS prêt à l'emploi créé à l'origine par l'utilisateur GitHub ElzeroWebSchool. Reconstruit en application monopage interactive avec 12+ sections, barre de progression, compteurs animés, validation de formulaire en temps réel et animations CSS réutilisables.",
+
     img: "./Template 3.png",
-    
     link: "https://tidjani1bachir.github.io/Template-For-Store/",
+
+    tags: ["Next.js 14", "React", "Tailwind CSS", "FontAwesome", "CSS Animations"],
   },
-  
-  {
-    id: 5,
-    title: "Tic-Tac-Toe ",
-    titleArab:"تيك تاك تو",
-    titleFrench:"Tic-Tac-Toe",
-    des: "A simple game built with TypeScript and Next.js, featuring a result display that shows whether the cross wins, loses, or x wins ,loses or draw.",
-    desArab:"لعبة بسيطة باستخدام typeScript وNextjs",
-    desFrecnh:"Jeu simple utilisant TypeScript et Next.js",
-    img: "./XAndOGame.png",
-    
-    link: "https://tidjani1bachir.github.io/Tic-Tac-Toe/",
-  },
-  {
-    id: 6,
-    title: "Bondi",
-    titleArab:"بوندي",
-    titleFrench:"Bondi",
-    des: "Implementation of a simple web design using the Bootstrap Toolkit ",
-    desArab:"تنفيذ تصميم ويب بسيط باستخدام مكتبة Bootstrap",
-    desFrecnh:"Implémentation d'un design web simple utilisant la bibliothèque Bootstrap",
-    img: "./SimpleBootstrap.png",
-    
-    link: "https://tidjani1bachir.github.io/Bondi/",
-  },
-  
-  
-  
-  {
-    id: 7,
-    title: "Cars App",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "Next.js app fetching car data and images via APIs. Uses TypeScript for type safety, Headless UI for modern UI, and client-side rendering for dynamic updates. Includes error handling for default image display.with a minimalistic hero section will be a gateway to our complex filtering and search capabilites,maintaining well orginazed file and folder structure using clean code principles all this is fully mobile responsive",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./carshowcase1111.png",
-    
-    link: "/https://tidjani1bachir.github.io/Cars-agency/",
-  },
-  {
-    id: 8,
-    title: "Admin dashboard",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "A prototype of a React admin panel application designed to help organize your data. It offers 6 beautiful themes, with the option to toggle between light and dark modes. The app features a single dashboard that consolidates all key information, and three pages—each with pagination. The second page includes a search input for locating specific elements, while the third page is fully editable, allowing for the selection of multiple rows. Additionally, it integrates four applications: a fully functional calendar, a compact Kanban board (to-do app), a text editor, and a color picker—ideal for design enthusiasts and frontend developers. It also includes seven fully functional charts for data visualization.",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./adminApp.png",
-    
-    link: "https://react-admin-dashboard-rbrf.vercel.app",
-  },
-  {
-    id: 9,
-    title: "Lawyer platforme idea presentation",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "A service platform for lawyers and legal consultants, presented as a concept using Next.js and Tailwind CSS components. The platform incorporates HTML, CSS, and React for form validation, ensuring accurate error handling when entering personal information such as email and password.",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./avocat.png",
-    
-    link: "https://prsentation-lawyer-of-platform-996x.vercel.app",
-  },
-  {
-    id: 10,
-    title: "Node Js Application",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "A Node.js application for performing CRUD operations (Create, Read, Update, Delete) using Next.js for server-side rendering. The app utilizes a JavaScript file as a database, leveraging the Node.js fs module to update data. It implements HTTP methods such as GET to retrieve all available users, POST to add new users, PUT to modify specific user details, and DELETE to remove a user. The application features dynamic routing, and I used Postman for API testing and making HTTP requests. The user interface is designed using the @material-tailwind/react npm package.",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./CRUDNodeJs.png",
-    
-    link: "https://basic-crud-nine.vercel.app",
-  },
-  {
-    id: 11,
-    title: " samll Ecommerce",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "A React small E Commerce website that utilizes a JavaScript file as a database, featuring advanced filtering functionality by price, color, company name, genre, and a search input to find specific products.",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./ecommerce.png",
-    
-    link: "https://samll-e-commerce-website.vercel.app",
-  },
-  {
-    id: 12,
-    title: "Modern Service presentation platforme",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "A Next.js application focused solely on the frontend, implementing a modern design to showcase services offered by a specific organization. It incorporates responsive design concepts with gradients and highlights, utilizing React Vite for a lighter build compared to Create React App. The project also uses Tailwind CSS for styling and includes a Prettier script for code formatting.",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./modernSaaS.png",
-    
-    link: "https://modern-saas-ptototype.vercel.app",
-  },
-  // {
-  //   id: 13,
-  //   title: "online bank Platforme",
-  //   titleArab:"تطبيق سيارات",
-  //   titleFrench:"Application Voitures",
-  //   des: "Next.js app fetching car data and images via APIs. Uses TypeScript for type safety, Headless UI for modern UI, and server-side rendering for dynamic updates. Includes error handling for default image display.",
-  //   desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-  //   desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-  //   img: "./onlinebank.png",
-    
-  //   link: "https://prototype-for-online-bank-website.vercel.app",
-  // },
-  {
-    id: 14,
-    title: "xora",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "Xora is a modern business website built with React.js and Tailwind CSS. It features an animated pricing section, a contemporary FAQ section, and a demo download area, all designed to be fully mobile responsive.",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./xora.png",
-    
-    link: "https://tidjani1bachir.github.io/xora/",
-  },
-  {
-    id: 15,
-    title: "Ecommerce website prototype",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "Next.js modern online store for showcasing profucts to sell this is an application to a small ecommerce with a dynamic on hover animation,dynamicly uppdates the year in the footer section using the date object with the ability to showcase the product details with the ability to hover to see all the images of a spesific product in details, to add aproduct to cart , choose quantity and a function that calculate the total price of all your products in cart section even if it's from defferent categories and pop up to show success message after buying and of course the website is fully mobile responsive",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./EcomPrototype.png",
-    
-    link: "https://modern-ecommerce-prototype.vercel.app",
-  },
-  {
-    id: 16,
-    title: "cars Applcation",
-    titleArab:"تطبيق سيارات",
-    titleFrench:"Application Voitures",
-    des: "Next.js app fetching car data and images via APIs. Uses TypeScript for type safety, Headless UI for modern UI, and server-side rendering for dynamic updates. Includes error handling for default image display.",
-    desArab:"تطبيق Next.js يقوم بجلب بيانات وصور السيارة عبر واجهات برمجة التطبيقات. يستخدم TypeScript لضمان سلامة النوع، وواجهة مستخدم بدون رأس لواجهة مستخدم حديثة، والرسم من جانب الخادم للتحديثات الديناميكية. يتضمن معالجة الأخطاء لعرض الصور الافتراضية.",
-    desFrecnh:"Application Next.js qui récupere les données et images des voitures via des API. Utilise TypeScript pour la sécurité des types, Headless UI pour une interface utilisateur moderne, et le rendu côté serveur pour des mises à jour dynamiques. Inclut la gestion des erreurs pour l'affichage d'une image par défaut.",
-    img: "./carshowcase1111.png",
-    
-    link: "https://cars-api-nine.vercel.app",
-  },
-  
 ];
 
-// ui ideas for the user that may have
+// ── What I Can Do (Services) ──────────────────────────────────────────────────
 
-// export const projects2 = [
-//   {
-//     title: "Ecommerce",
-//     titleArab:"متجر الكتروني",
-//     titleFrench:"",
-//     description:
-//       "click to Explore the design",
-//     descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "Building Company",
-//     titleArab:"شركة بناء",
-//     titleFrench:"Entreprise de construction",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "cake shop",
-//     titleArab:"محل كيك",
-//     titleFrench:"Pâtisserie",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://google.com",
-//   },
-//   {
-//     title: "Carpenter",
-//     titleArab:"نجار",
-//     titleFrench:"Charpentier",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://meta.com",
-//   },
-//   {
-//     title: "car repair",
-//     titleArab:"إصلاح السيارات",
-//     titleFrench:"Réparation de voitures",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://amazon.com",
-//   },
-//   {
-//     title: "Coffe Shop",
-//     titleArab:"مقهى",
-//     titleFrench:"Café",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://microsoft.com",
-//   },
-//   {
-//     title: "construction company",
-//     titleArab:"شركة بناء",
-//     titleFrench:" Entreprise de construction",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "GYM",
-//     titleArab:"صالة رياضية",
-//     titleFrench:"Gymnase",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "food ordering",
-//     titleArab:"طلب الطعام",
-//     titleFrench:" Commande de nourriture",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://google.com",
-//   },
-//   {
-//     title: "school",
-//     titleArab:"مدرسة",
-//     titleFrench:"École",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://meta.com",
-//   },
-//   {
-//     title: "Julery shop",
-//     titleArab:"محل مجوهرات",
-//     titleFrench:"Bijouterie",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://amazon.com",
-//   },
-//   {
-//     title: "medicine shop",
-//     titleArab:"صيدلية",
-//     titleFrench:"Pharmacie",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://microsoft.com",
-//   },
-//   {
-//     title: "painting company",
-//     titleArab:" شركة دهان",
-//     titleFrench:"Entreprise de peinture",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "Presentation for Mobile App",
-//     titleArab:"عرض تقديمي لتطبيق جوال",
-//     titleFrench:"Présentation pour application mobile",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "rent car agency",
-//     titleArab:"وكالة تأجير السيارات",
-//     titleFrench:"Agence de location de voitures",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://google.com",
-//   },
-//   {
-//     title: "wordprees developer",
-//     titleArab:"مطور ووردبريس",
-//     titleFrench:"Développeur WordPress",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://meta.com",
-//   },
-//   {
-//     title: "Sketching Artist",
-//     titleArab:"فنان رسم توضيحي",
-//     titleFrench:"Dessinateur",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://amazon.com",
-//   },
-//   {
-//     title: "Building company",
-//     titleArab:"شركة بناء",
-//     titleFrench:"Entreprise de construction",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://microsoft.com",
-//   },
-//   {
-//     title: "Artist portfolio",
-//     titleArab:"محفظة فنان",
-//     titleFrench:"Portfolio d'artiste",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-//   {
-//     title: "Designer potfolio",
-//     titleArab:"محفظة مصمم",
-//     titleFrench:"Portfolio de designer",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-  
-//   {
-//     title: "Hotel wesite",
-//     titleArab:"موقع فندق",
-//     titleFrench:"Site web d'hôtel",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "Hospital webcite",
-//     titleArab:"موقع مستشفى",
-//     titleFrench:" Site web d'hôpital",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "Photo grapher potfolio",
-//     titleArab:"محفظة مصور فوتوغرافي",
-//     titleFrench:"Portfolio de photographe",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://netflix.com",
-//   },
-//   {
-//     title: "welding servises",
-//     titleArab:"خدمات اللحام",
-//     titleFrench:"Services de soudage",
-//     description:
-//       "click to Explore the design",
-//       descriptionArabic:
-//       "انقر لاستكشاف التصميم",
-//       descriptionFrench:
-//       "Cliquez pour explorer le design",
-//     link: "https://stripe.com",
-//   },
-  
-// ];
+export const workExperience = [
+  {
+    id: 1,
+    title: "Full-Stack Web Applications",
+    titleArab: "تطبيقات ويب متكاملة",
+    titleFrecn: "Applications Web Full-Stack",
+    desc: "I build complete full-stack applications using the MERN stack (MongoDB, Express, React, Node.js) with JWT authentication, REST APIs, and production deployments on Vercel and Render.",
+    descArab: "أبني تطبيقات ويب متكاملة باستخدام MERN Stack مع مصادقة JWT وREST APIs ونشر على Vercel وRender.",
+    descFrench: "Je construis des applications full-stack complètes avec le MERN Stack, JWT, REST APIs et déploiement sur Vercel et Render.",
+    className: "md:col-span-2",
+    thumbnail: "./exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Frontend Development",
+    titleArab: "تطوير الواجهة الأمامية",
+    titleFrecn: "Développement Frontend",
+    desc: "I build responsive, performant frontends with React, Next.js 14, TypeScript, and Tailwind CSS — including dashboards, e-commerce UIs, landing pages, and admin panels.",
+    descArab: "أبني واجهات أمامية متجاوبة وعالية الأداء باستخدام React وNext.js 14 وTypeScript وTailwind CSS.",
+    descFrench: "Je développe des interfaces frontend responsives et performantes avec React, Next.js 14, TypeScript et Tailwind CSS.",
+    className: "md:col-span-2",
+    thumbnail: "./exp3.svg",
+  },
+  {
+    id: 3,
+    title: "Desktop Applications",
+    titleArab: "تطبيقات سطح المكتب",
+    titleFrecn: "Applications de bureau",
+    desc: "I build cross-platform desktop applications using Tauri (Rust + React/TypeScript) — producing native .exe and .msi installers from a single web codebase. Experienced configuring Tauri on both Windows and Linux.",
+    descArab: "أبني تطبيقات سطح مكتب متعددة المنصات باستخدام Tauri مع React/TypeScript — تنتج ملفات .exe و.msi من قاعدة كود واحدة.",
+    descFrench: "Je crée des applications desktop multiplateformes avec Tauri (Rust + React/TypeScript), produisant des installeurs .exe et .msi depuis une seule base de code.",
+    className: "md:col-span-2",
+    thumbnail: "./exp2.svg",
+  },
+];
+
+// ── My Approach ───────────────────────────────────────────────────────────────
+
+export const approach = [
+  {
+    id: 1,
+    phase: "Phase 1",
+    title: "Understand First, Code Second",
+    titleArab: "الفهم أولاً، ثم الكود",
+    titleFrench: "Comprendre d'abord, coder ensuite",
+    desc: "Before writing a single line I read the existing codebase, understand the architecture, align with the team's conventions, and ask the right questions. I use UML diagrams (Use Case, Class, Sequence, Activity, State Machine) to map out the system before implementation — avoiding costly mistakes later.",
+    descArab: "قبل كتابة أي سطر كود، أقرأ قاعدة الكود الموجودة وأفهم البنية وأتوافق مع اتفاقيات الفريق. أستخدم مخططات UML لرسم النظام قبل التنفيذ.",
+    descFrench: "Avant d'écrire une seule ligne, je lis le code existant, comprends l'architecture et m'aligne avec les conventions de l'équipe. J'utilise les diagrammes UML pour cartographier le système avant l'implémentation.",
+    thumbnail: "./exp1.svg",
+  },
+  {
+    id: 2,
+    phase: "Phase 2",
+    title: "Collaborate and Communicate",
+    titleArab: "التعاون والتواصل",
+    titleFrench: "Collaborer et communiquer",
+    desc: "I keep the team updated on progress, flag blockers early, and communicate clearly via tools like Slack, Jira, Trello, Notion, and GitHub Projects. I'm comfortable working in remote and hybrid environments across different time zones.",
+    descArab: "أُبقي الفريق على اطلاع بالتقدم وأُبلّغ عن العقبات مبكراً عبر Slack وJira وGitHub Projects. أعمل بسهولة في بيئات العمل عن بُعد.",
+    descFrench: "Je tiens l'équipe informée, signale les blocages tôt et communique clairement via Slack, Jira, Trello et GitHub Projects. À l'aise en télétravail sur différents fuseaux horaires.",
+    thumbnail: "./exp3.svg",
+  },
+  {
+    id: 3,
+    phase: "Phase 3",
+    title: "Write Clean, Tested, Reviewable Code",
+    titleArab: "كتابة كود نظيف وقابل للاختبار والمراجعة",
+    titleFrench: "Écrire un code propre, testé et révisable",
+    desc: "I write code that is easy to review — small focused commits, clear naming, and no over-engineering. I back my work with tests using Vitest, React Testing Library, Playwright E2E, and node:test for API validation. I treat code review as a learning opportunity.",
+    descArab: "أكتب كوداً سهل المراجعة — commits صغيرة ومركزة، تسمية واضحة، وبدون تعقيد زائد. أدعم عملي باختبارات باستخدام Vitest وPlaywright.",
+    descFrench: "J'écris un code facile à réviser — commits petits et ciblés, nommage clair, sans sur-ingénierie. Je soutiens mon travail avec des tests via Vitest, Playwright et node:test.",
+    thumbnail: "./exp2.svg",
+  },
+  {
+    id: 4,
+    phase: "Phase 4",
+    title: "Configure, Deploy and Maintain",
+    titleArab: "الإعداد والنشر والصيانة",
+    titleFrench: "Configurer, déployer et maintenir",
+    desc: "This is where the magic happens! Based on the approved design, I translate everything into functional code, building your Application whether it's a web app or desktop from the ground up.",
+    descArab: "أتولى الإعداد الكامل للبيئة — MongoDB وMongoDBCompass وإعداد Tauri على Windows وLinux وتخصيص حزم npm وتوسيع مكتبات UI. أنشر على Vercel وRender وأعمل على Linux عبر سطر الأوامر.",
+    descFrench: "Je gère la configuration complète — MongoDB + Compass, Tauri sur Windows et Linux, personnalisation de packages npm et extension de bibliothèques UI. Déploiement sur Vercel, Render et GitHub Pages. À l'aise sur Linux Debian en ligne de commande.",
+    thumbnail: "./exp4.svg",
+  },
+];
+
+// ── Testimonials ──────────────────────────────────────────────────────────────
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Tidjani delivered a complete e-commerce platform that exceeded our expectations. His attention to security, clean code structure, and ability to communicate progress clearly made the collaboration smooth from start to finish.",
+    name: "Client Feedback",
+    title: "E-Commerce Project",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "The admin dashboard Tidjani built for us is exactly what we needed — intuitive, fast, and beautifully designed. He understood our requirements quickly and delivered on time.",
+    name: "Client Feedback",
+    title: "Admin Dashboard Project",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Tidjani was a great experience. He is professional, responsive, and genuinely cares about the quality of his work. The product manager app he built works flawlessly on both web and desktop.",
+    name: "Client Feedback",
+    title: "Product Manager App",
   },
 ];
+
+// ── Companies / Technologies ──────────────────────────────────────────────────
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "MongoDB",
     img: "./cloud.svg",
     nameImg: "./cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "Vercel",
     img: "./app.svg",
     nameImg: "./appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "Render",
     img: "./host.svg",
     nameImg: "./hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
+    name: "Cloudinary",
     img: "./s.svg",
     nameImg: "./streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
+    name: "GitHub",
     img: "./dock.svg",
     nameImg: "./dockerName.svg",
   },
 ];
 
-export const workExperience = [
-  {
-    id: 1,
-    title: "Desktop application",
-    titleArab: "تطبيق سطح المكتب",
-    titleFrecn: "Application de bureau",
-    desc: "i can create Desktop Apps with javascript Frameworks like Electron js and tauri",
-    descArab:"يمكنني إنشاء تطبيقات سطح المكتب باستخدام أطر عمل Java و C++ و JavaScript لتطبيقات سطح المكتب مثل Electron JS و Tauri",
-    descFrench:"je peux créer des applications de bureau avec Java et C++ et des frameworks JavaScript pour les applications de bureau comme Electron JS et Tauri",
-    className: "md:col-span-2",
-    thumbnail: "./exp2.svg",
-  },
-  
-  {
-    id: 2,
-    title: "FULL web Application",
-    titleArab: "تطبيقات كاملة (mySQL and react or Next Js Stack)",
-    titleFrecn: "تطبيقات MySQL كاملة",
-    desc: "i can work on api projects for dynamicly sholwnig content or informations like Currency prices cars information ,maps,and more",
-    descArab:"",
-    descFrench:"",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp3.svg",
-  },
-  {
-    id: 3,
-    title: "FULL web Application",
-    titleArab: "تطبيقات كاملة (mySQL and react or Next Js Stack)",
-    titleFrecn: "تطبيقات MySQL كاملة",
-    desc: "i can create FULL Stack application with MERN Stack and php And Mysql",
-    descArab:"",
-    descFrench:"",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "./exp1.svg",
-  },
-  {
-    id: 4,
-    title: "Mobile applications",
-    titleArab: "تطبيقات الهاتف",
-    titleFrecn: "Applications Mobiles",
-    desc: "i can create full stack Mobile applications using React native for both android and ios (cross platform) and native android applications using android studio with java ",
-    descArab:"يمكنني إنشاء تطبيقات جوال كاملة باستخدام React native لكل من android و ios (منصة متعددة) و android studio مع java مع fire Base أو SQL Lite",
-    descFrench:"je peux créer des applications mobiles full stack en utilisant React native pour Android et iOS (multiplateforme) et Android Studio avec Java avec Fire Base ou SQL Lite",
-    className: "md:col-span-2",
-    thumbnail: "./exp4.svg",
-  },
+// ── Products2 (Parallax Section — UI Design Showcase) ────────────────────────
+
+export const products2 = [
+  { title: "Moonbeam", link: "#", thumbnail: "./restraunt1.png" },
+  { title: "Cursor", link: "#", thumbnail: "./Ecomeerce Shop For serveral Projects.png" },
+  { title: "Rogue", link: "#", thumbnail: "./restraunt1.png" },
+  { title: "Editorially", link: "#", thumbnail: "./SimpleBootstrap.png" },
+  { title: "Editrix AI", link: "#", thumbnail: "./Book-store.png" },
+  { title: "Pixel Perfect", link: "#", thumbnail: "./Cake-shope-scss.png" },
+  { title: "Algochurn", link: "#", thumbnail: "./AdvancedEcomercceCite.png" },
+  { title: "Aceternity UI", link: "#", thumbnail: "./booking housees.png" },
+  { title: "Tailwind Master Kit", link: "#", thumbnail: "./car repair services.png" },
+  { title: "SmartBridge", link: "#", thumbnail: "./coffe shop.png" },
+  { title: "Renderwork Studio", link: "#", thumbnail: "./ecommerce--shop.png" },
+  { title: "Creme Digital", link: "#", thumbnail: "./building--app.png" },
+  { title: "Golden Bells Academy", link: "#", thumbnail: "./carpenter--shop.png" },
+  { title: "Invoker Labs", link: "#", thumbnail: "./car repaired shop.png" },
+  { title: "E Free Invoice", link: "", thumbnail: "./Mobile App Presentation.png" },
+  { title: "Aceternity UI 2", link: "#", thumbnail: "./admin-dashboard---2.png" },
+  { title: "Tailwind Master Kit 2", link: "#", thumbnail: "./Book-store.png" },
+  { title: "SmartBridge 2", link: "#", thumbnail: "./building--app.png" },
+  { title: "Renderwork Studio 2", link: "#", thumbnail: "./car app using api to fetch cars.png" },
+  { title: "Creme Digital 2", link: "#", thumbnail: "./ecommerce--shop.png" },
+  { title: "Golden Bells Academy 2", link: "#", thumbnail: "./fast food delivery.png" },
+  { title: "Invoker Labs 2", link: "#", thumbnail: "./carpenter--shop.png" },
+  { title: "E Free Invoice 2", link: "", thumbnail: "./graphic designer 22 potfolio.png" },
+  { title: "HooBankDesign", link: "#", thumbnail: "./carpenter--shop.png" },
+  { title: "Invoker Labs 3", link: "#", thumbnail: "./ModernPortfolio Website.png" },
+  { title: "E Free Invoice 3", link: "", thumbnail: "./mehcanics store.png" },
+  { title: "Aceternity UI 3", link: "#", thumbnail: "./ui for Platform to showcase a profuct of company.png" },
+  { title: "Tailwind Master Kit 3", link: "#", thumbnail: "./restraunt1.png" },
+  { title: "SmartBridge 3", link: "#", thumbnail: "./rent car 2.png" },
+  { title: "Renderwork Studio 3", link: "#", thumbnail: "./photo grapher potfolio.png" },
+  { title: "Creme Digital 3", link: "#", thumbnail: "./painting shop.png" },
+  { title: "Golden Bells Academy 3", link: "#", thumbnail: "./Modern Jquery potfolio.png" },
+  { title: "Invoker Labs 4", link: "#", thumbnail: "./Kasper.png" },
+  { title: "E Free Invoice 4", link: "", thumbnail: "./Book-store.png" },
 ];
 
+// ── Social Media ──────────────────────────────────────────────────────────────
+
 export const socialMedia = [
-  
   {
     id: 1,
     img: "./git.svg",
-    link:"https://github.com/Tidjani1Bachir",
-  },  {
-    id: 3,
+    link: "https://github.com/Tidjani1Bachir",
+  },
+  {
+    id: 2,
     img: "./link.svg",
-    link:"https://www.linkedin.com/in/tidjani-bachir-b27861226/",
+    link: "https://www.linkedin.com/in/tidjani-bachir-b27861226/",
   },
 ];
