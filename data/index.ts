@@ -136,17 +136,18 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Interactive Corporate Landing Page",
-    titleArab: "صفحة هبوط تفاعلية للشركات",
-    titleFrench: "Page de Destination d'Entreprise",
+    title: "Brainwave — Modern AI Landing Page",
+    titleArab: "Brainwave — صفحة هبوط للذكاء الاصطناعي",
+    titleFrench: "Brainwave — Page de Destination IA Moderne",
 
-    des: "A fast, modern single-page website designed to convert visitors into clients. Features 12+ interactive sections including services, team profiles, and animated growth counters. Built with Next.js 14 for maximum speed and SEO performance.",
-    desArab: "موقع ويب سريع وعصري من صفحة واحدة مصمم لتحويل الزوار إلى عملاء. يضم أكثر من 12 قسمًا تفاعليًا وعدادات متحركة، مبني باستخدام Next.js 14 لأفضل أداء.",
-    desFrecnh: "Site web moderne et rapide conçu pour convertir les visiteurs en clients. Comprend 12+ sections interactives, optimisé avec Next.js 14 pour le SEO.",
+    des: "A high-fidelity implementation of a premium Figma design kit. This project showcases advanced UI/UX skills, including complex CSS layouts, sleek dark-mode aesthetics, and responsive components tailored for modern AI SaaS platforms. Built to demonstrate 'Figma-to-Code' precision.",
+    desArab: "تطبيق عالي الدقة لتصميم Figma احترافي. يعرض المشروع مهارات متقدمة في واجهة المستخدم (UI/UX)، بما في ذلك تخطيطات CSS المعقدة، والجماليات الحديثة المتوافقة مع منصات الذكاء الاصطناعي.",
+    desFrecnh: "Implémentation haute fidélité d'un kit de design Figma premium. Ce projet démontre une maîtrise avancée du UI/UX, avec des mises en page CSS complexes et une esthétique 'Dark Mode' moderne pour les plateformes SaaS IA.",
 
-    img: "./Template 3.png",
-    link: "https://tidjani1bachir.github.io/Template-For-Store/",
-    tags: ["Next.js 14", "Responsive Design", "SEO Optimized"],
+    img: "./brainwave.png", // Make sure to save a screenshot as this name
+    link: "https://modern-saas-ptototype.vercel.app/",
+
+    tags: ["React", "Tailwind CSS", "Figma-to-Code", "Framer Motion", "UI/UX"],
   },
 ];
 
