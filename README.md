@@ -208,18 +208,6 @@ Arabic content uses RTL layout handled via Tailwind's `dir` utilities.
 
 ---
 
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes please open an issue first.
-
-1. Fork the repo
-2. Create your branch: `git checkout -b feature/your-feature`
-3. Commit: `git commit -m 'Add some feature'`
-4. Push: `git push origin feature/your-feature`
-5. Open a pull request
-
----
-
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
