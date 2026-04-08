@@ -89,64 +89,194 @@ export const gridItems = [
   },
 ];
 
-// ── Main Projects ─────────────────────────────────────────────────────────────
+export const gridItemsArabic = [
+  {
+    id: 1,
+    title: "أُعطي الأولوية للتعاون مع العميل وأحرص على التواصل المفتوح في كل مرحلة من مراحل المشروع.",
+    description: "",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    imgClassName: "w-full h-full",
+    titleClassName: "justify-end",
+    img: "./b1.svg",
+    spareImg: "",
+  },
+  {
+    id: 2,
+    title: "أستطيع العمل مع مناطق زمنية مختلفة حول العالم — متاح للتعاون عن بُعد.",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 3,
+    title: "التقنيات التي أعمل بها",
+    description: "React · Next.js · Node.js · MongoDB · TypeScript · Tailwind",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-center",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 4,
+    title: "مطور Full-Stack شغوف ببناء تطبيقات آمنة وكود نظيف.",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
+  },
+  {
+    id: 5,
+    title: "أبني تطبيقات متكاملة من REST APIs إلى واجهات أمامية متجاوبة.",
+    description: "MERN Stack · Next.js · TypeScript · Tailwind CSS",
+    className: "md:col-span-3 md:row-span-2",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
+  },
+  {
+    id: 6,
+    title: "هل تريد أن نبدأ مشروعًا معًا؟",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    img: "",
+    spareImg: "",
+  },
+];
+
+export const gridItemsFrench = [
+  {
+    id: 1,
+    title: "Je privilégie la collaboration avec le client et une communication ouverte à chaque étape du projet.",
+    description: "",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    imgClassName: "w-full h-full",
+    titleClassName: "justify-end",
+    img: "./b1.svg",
+    spareImg: "",
+  },
+  {
+    id: 2,
+    title: "Je suis flexible sur les fuseaux horaires — disponible pour collaborer à distance dans le monde entier.",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 3,
+    title: "Ma stack technologique",
+    description: "React · Next.js · Node.js · MongoDB · TypeScript · Tailwind",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-center",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 4,
+    title: "Développeur Full-Stack passionné par l'architecture sécurisée et le code propre.",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
+  },
+  {
+    id: 5,
+    title: "Je construis des applications complètes — des REST APIs aux interfaces frontend responsives.",
+    description: "MERN Stack · Next.js · TypeScript · Tailwind CSS",
+    className: "md:col-span-3 md:row-span-2",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
+  },
+  {
+    id: 6,
+    title: "Voulez-vous démarrer un projet ensemble ?",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    img: "",
+    spareImg: "",
+  },
+];
+
+// ── Main Projects (4 real deployed projects) ──────────────────────────────────
 
 export const projects = [
   {
     id: 1,
-    title: "ShopSphere — Secure E-Commerce Solution",
-    titleArab: "ShopSphere — متجر إلكتروني آمن",
-    titleFrench: "ShopSphere — Solution E-Commerce Sécurisée",
+    title: "ShopSphere — Full-Stack E-Commerce Platform",
+    titleArab: "ShopSphere — منصة تجارة إلكترونية متكاملة",
+    titleFrench: "ShopSphere — Plateforme E-Commerce Full-Stack",
 
-    des: "A high-performance online store featuring secure PayPal payments and an advanced admin dashboard for sales tracking. Built with the MERN stack, it includes professional security features like malware scanning (ClamAV) and encrypted authentication to protect your business and customer data.",
-    desArab: "متجر إلكتروني عالي الأداء يتميز بمدفوعات PayPal آمنة ولوحة تحكم متقدمة لتتبع المبيعات. يتضمن ميزات أمان احترافية مثل فحص الملفات وتشفير البيانات لحماية عملك.",
-    desFrecnh: "Une boutique en ligne performante avec paiements PayPal sécurisés et tableau de bord de vente. Comprend des fonctions de sécurité avancées comme le scan de malwares et l'authentification cryptée.",
+    des: "A production-grade MERN stack e-commerce platform with JWT authentication stored in HttpOnly cookies, bcrypt password hashing, 4-layer file upload validation (extension, MIME type, path traversal, malware scanning via ClamAV), PayPal SDK integration, RTK Query tag-based cache invalidation, hybrid localStorage/MongoDB favorites, and an admin dashboard with live ApexCharts analytics exportable to CSV/PNG/SVG.",
+    desArab: "منصة تجارة إلكترونية متكاملة باستخدام MERN Stack مع مصادقة JWT في HttpOnly cookies، تشفير كلمات المرور بـ bcrypt، تحقق رباعي الطبقات من ملفات الرفع، تكامل PayPal SDK، لوحة إدارة مع تحليلات ApexCharts.",
+    desFrecnh: "Plateforme e-commerce MERN complète avec authentification JWT en cookies HttpOnly, hachage bcrypt, validation d'upload en 4 couches, intégration PayPal SDK, et tableau de bord admin avec ApexCharts exportable CSV/PNG/SVG.",
 
     img: "./shopsphere.png",
     link: "https://shops-frontend.vercel.app",
-    tags: ["MERN Stack", "PayPal SDK", "Redux", "Security-Focused"],
+
+    tags: ["MongoDB", "Express", "React", "Node.js", "Redux Toolkit", "RTK Query", "Tailwind CSS", "PayPal SDK"],
   },
   {
     id: 2,
-    title: "Business Product Manager (Web & Desktop)",
-    titleArab: "مدير المنتجات (ويب وسطح مكتب)",
-    titleFrench: "Gestionnaire de Produits (Web & Bureau)",
+    title: "Product Manager — Web + Desktop App",
+    titleArab: "مدير المنتجات — تطبيق ويب + سطح مكتب",
+    titleFrench: "Product Manager — Application Web + Bureau",
 
-    des: "A professional inventory management tool that works on both web browsers and as a native desktop application (.exe). Optimized for accuracy with a full automated testing suite, featuring easy PDF exports and cloud image storage for your product catalog.",
-    desArab: "أداة احترافية لإدارة المخزون تعمل على المتصفح وتطبيق سطح مكتب. يوفر تصدير ملفات PDF وتخزين سحابي للصور، مع كود مختبر بدقة لضمان استقرار النظام.",
-    desFrecnh: "Outil professionnel de gestion d'inventaire disponible sur le web et en application bureau (.exe). Optimisé pour la précision avec export PDF et stockage cloud.",
+    des: "Cross-platform product manager built with React, TypeScript, Tauri, and Node.js/Express. Features full CRUD, drag-and-drop image upload, PDF export, Turso (cloud SQLite), and Cloudinary for image storage. Dual deployment: web app on Vercel and native desktop installers (.exe/.msi) via Tauri from a single codebase. Includes a complete test suite: 39/39 passing — Vitest + React Testing Library (unit), Playwright E2E across Chrome/Firefox/Safari, and node:test for REST API validation.",
+    desArab: "تطبيق مدير منتجات متعدد المنصات باستخدام React وTypeScript وTauri وNode.js. يتضمن CRUD كامل، رفع الصور، تصدير PDF، Turso وCloudinary. نشر مزدوج: ويب على Vercel وتطبيق سطح مكتب (.exe/.msi) من قاعدة كود واحدة. مجموعة اختبارات كاملة: 39/39.",
+    desFrecnh: "Gestionnaire de produits multiplateforme avec React, TypeScript, Tauri et Node.js/Express. CRUD complet, upload drag-and-drop, export PDF, Turso + Cloudinary. Déploiement double : web sur Vercel et installeur desktop (.exe/.msi) via Tauri. Suite de tests complète : 39/39.",
 
     img: "./productmanager.png",
     link: "https://product-manager-chi-eosin.vercel.app",
-    tags: ["React", "Tauri", "TypeScript", "Automated Testing"],
+
+    tags: ["React", "TypeScript", "Tauri", "Node.js", "Vitest", "Playwright", "Turso", "Cloudinary"],
   },
   {
     id: 3,
-    title: "Shoppy — Business Intelligence Dashboard",
-    titleArab: "Shoppy — لوحة تحكم ذكاء الأعمال",
-    titleFrench: "Shoppy — Tableau de bord Décisionnel",
+    title: "Shoppy — React Admin Dashboard",
+    titleArab: "Shoppy — لوحة إدارة React",
+    titleFrench: "Shoppy — Tableau de bord Admin React",
 
-    des: "An all-in-one visual dashboard designed for data management. It features interactive charts, Kanban boards for task tracking, and a built-in calendar. Fully customizable with dark/light themes and 6 accent colors to match your corporate branding.",
-    desArab: "لوحة تحكم مرئية شاملة لإدارة البيانات. تتميز برسوم بيانية تفاعلية، لوحات مهام Kanban، وتقويم مدمج. قابلة للتخصيص بالكامل لتناسب هوية شركتك.",
-    desFrecnh: "Tableau de bord visuel pour la gestion de données. Comprend des graphiques interactifs, Kanban et calendrier. Entièrement personnalisable selon votre marque.",
+    des: "A fully responsive admin dashboard built with React and Syncfusion EJ2, featuring 7 chart types (Line, Area, Bar, Pie, Financial, Color-Mapping, Stacked), sortable/filterable data grids, a Kanban board, rich text editor, color picker, and calendar scheduler. Implements dark/light theming with 6 live accent colors using React Context API and Tailwind CSS. Includes slide-in cart panel, notification feed, and user profile dropdown.",
+    desArab: "لوحة إدارة متجاوبة بالكامل باستخدام React وSyncfusion EJ2، تضم 7 أنواع من الرسوم البيانية، جداول بيانات قابلة للفرز والتصفية، لوحة Kanban، محرر نصوص، منتقي ألوان وتقويم. تدعم الوضع الداكن والفاتح مع 6 ألوان مخصصة.",
+    desFrecnh: "Tableau de bord admin responsive avec React et Syncfusion EJ2, incluant 7 types de graphiques, grilles de données, Kanban, éditeur de texte, sélecteur de couleurs et calendrier. Thème clair/sombre avec 6 couleurs d'accent via React Context API.",
 
     img: "./adminApp.png",
     link: "https://react-admin-dashboard-rbrf.vercel.app",
-    tags: ["React", "Syncfusion", "Tailwind CSS", "Data Analytics"],
+
+    tags: ["React", "Syncfusion EJ2", "Tailwind CSS", "React Context API"],
   },
   {
     id: 4,
-    title: "Interactive Corporate Landing Page",
-    titleArab: "صفحة هبوط تفاعلية للشركات",
-    titleFrench: "Page de Destination d'Entreprise",
+    title: "Portfolio Landing Page — Based on ElzeroWebSchool Template",
+    titleArab: "صفحة هبوط — مبنية على قالب ElzeroWebSchool",
+    titleFrench: "Page de destination — Basée sur le template ElzeroWebSchool",
 
-    des: "A fast, modern single-page website designed to convert visitors into clients. Features 12+ interactive sections including services, team profiles, and animated growth counters. Built with Next.js 14 for maximum speed and SEO performance.",
-    desArab: "موقع ويب سريع وعصري من صفحة واحدة مصمم لتحويل الزوار إلى عملاء. يضم أكثر من 12 قسمًا تفاعليًا وعدادات متحركة، مبني باستخدام Next.js 14 لأفضل أداء.",
-    desFrecnh: "Site web moderne et rapide conçu pour convertir les visiteurs en clients. Comprend 12+ sections interactives, optimisé avec Next.js 14 pour le SEO.",
+    des: "A Next.js 14 implementation of a ready-made HTML/CSS template originally created by the GitHub user ElzeroWebSchool. Rebuilt as a fully interactive single-page app with 12+ sections: Articles, Gallery, Features, Testimonials, Team Members, Services, Skills progress bars, How It Works, Latest Events (animated counters), Pricing Plans, Top Videos, and Discount form. Adds a fixed scroll progress bar, smooth useRef-based navigation, intersection-triggered animated counters, client-side form validation with color-coded feedback, and reusable CSS animation systems on top of the original design.",
+    desArab: "تطبيق Next.js 14 لقالب HTML/CSS جاهز أصلاً من إنشاء مستخدم GitHub المعروف بـ ElzeroWebSchool. أُعيد بناؤه كتطبيق أحادي الصفحة تفاعلي بأكثر من 12 قسمًا مع شريط تقدم التمرير، تنقل سلس، عدادات متحركة، تحقق من النماذج، ونظام رسوم متحركة CSS.",
+    desFrecnh: "Implémentation Next.js 14 d'un template HTML/CSS prêt à l'emploi créé à l'origine par l'utilisateur GitHub ElzeroWebSchool. Reconstruit en application monopage interactive avec 12+ sections, barre de progression, compteurs animés, validation de formulaire en temps réel et animations CSS réutilisables.",
 
     img: "./Template 3.png",
     link: "https://tidjani1bachir.github.io/Template-For-Store/",
-    tags: ["Next.js 14", "Responsive Design", "SEO Optimized"],
+
+    tags: ["Next.js 14", "React", "Tailwind CSS", "FontAwesome", "CSS Animations"],
   },
 ];
 
@@ -243,11 +373,36 @@ export const testimonials = [
 // ── Companies / Technologies ──────────────────────────────────────────────────
 
 export const companies = [
-  { id: 1, name: "MongoDB", img: "./cloud.svg", nameImg: "./cloudName.svg" },
-  { id: 2, name: "Vercel", img: "./app.svg", nameImg: "./appName.svg" },
-  { id: 3, name: "Render", img: "./host.svg", nameImg: "./hostName.svg" },
-  { id: 4, name: "Cloudinary", img: "./s.svg", nameImg: "./streamName.svg" },
-  { id: 5, name: "GitHub", img: "./dock.svg", nameImg: "./dockerName.svg" },
+  {
+    id: 1,
+    name: "MongoDB",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
+  },
+  {
+    id: 2,
+    name: "Vercel",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
+  },
+  {
+    id: 3,
+    name: "Render",
+    img: "./host.svg",
+    nameImg: "./hostName.svg",
+  },
+  {
+    id: 4,
+    name: "Cloudinary",
+    img: "./s.svg",
+    nameImg: "./streamName.svg",
+  },
+  {
+    id: 5,
+    name: "GitHub",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
+  },
 ];
 
 // ── Products2 (Parallax Section — UI Design Showcase) ────────────────────────
