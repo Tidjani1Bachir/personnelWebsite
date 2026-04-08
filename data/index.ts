@@ -144,7 +144,7 @@ export const projects = [
   desArab: "تطبيق عالي الدقة لتصميم Figma احترافي. يعرض المشروع مهارات متقدمة في واجهة المستخدم (UI/UX)، بما في ذلك تخطيطات CSS المعقدة، والجماليات الحديثة المتوافقة مع منصات الذكاء الاصطناعي.",
   desFrecnh: "Implémentation haute fidélité d'un kit de design Figma premium. Ce projet démontre une maîtrise avancée du UI/UX, avec des mises en page CSS complexes et une esthétique 'Dark Mode' moderne pour les plateformes SaaS IA.",
 
-  img: "./brainwave.png", 
+  img: "./brainwave2.png", 
   link: "https://modern-saas-ptototype.vercel.app/",
 
   tags: ["React", "Tailwind CSS", "Figma-to-Code", "Framer Motion", "UI/UX"],
