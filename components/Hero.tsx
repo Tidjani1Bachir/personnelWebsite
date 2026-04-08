@@ -91,6 +91,17 @@ const Hero = () => {
               position="right"
             />
           </a>
+          <a 
+          href="/Tidjani_Bachir_CV.pdf"
+          target="_blank" 
+          rel="noopener noreferrer"
+          >
+            <MagicButton
+              title="View My Resume"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </div>

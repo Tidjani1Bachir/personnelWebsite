@@ -187,6 +187,17 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "./exp2.svg",
   },
+  {
+    id: 4,
+    title: "Secure Backend & API Development",
+    titleArab: "تطوير الواجهة الخلفية والخدمات",
+    titleFrecn: "Développement Backend & API",
+    desc: "I build high-performance REST APIs and secure database designs (SQL/NoSQL). I specialize in secure user authentication, real-time data syncing, and professional PayPal payment integration.",
+    descArab: "أبني برمجيات خلفية آمنة وREST APIs عالية الأداء. أتخصص في المصادقة الآمنة، وتصميم قواعد البيانات، وربط بوابات الدفع مثل PayPal.",
+    descFrench: "Je développe des APIs REST performantes et des bases de données sécurisées. Expert en authentification, synchronisation de données et intégration de paiements PayPal.",
+    className: "md:col-span-2",
+    thumbnail: "./exp4.svg", // Ensure you have this icon or reuse exp2.svg
+  },
 ];
 
 // ── My Approach ───────────────────────────────────────────────────────────────
