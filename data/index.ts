@@ -135,20 +135,20 @@ export const projects = [
     tags: ["React", "Syncfusion", "Tailwind CSS", "Data Analytics"],
   },
   {
-    id: 4,
-    title: "Brainwave — Modern AI Landing Page",
-    titleArab: "Brainwave — صفحة هبوط للذكاء الاصطناعي",
-    titleFrench: "Brainwave — Page de Destination IA Moderne",
+  id: 4,
+  title: "Brainwave — Modern AI Landing Page",
+  titleArab: "Brainwave — صفحة هبوط للذكاء الاصطناعي",
+  titleFrench: "Brainwave — Page de Destination IA Moderne",
 
-    des: "A high-fidelity implementation of a premium Figma design kit. This project showcases advanced UI/UX skills, including complex CSS layouts, sleek dark-mode aesthetics, and responsive components tailored for modern AI SaaS platforms. Built to demonstrate 'Figma-to-Code' precision.",
-    desArab: "تطبيق عالي الدقة لتصميم Figma احترافي. يعرض المشروع مهارات متقدمة في واجهة المستخدم (UI/UX)، بما في ذلك تخطيطات CSS المعقدة، والجماليات الحديثة المتوافقة مع منصات الذكاء الاصطناعي.",
-    desFrecnh: "Implémentation haute fidélité d'un kit de design Figma premium. Ce projet démontre une maîtrise avancée du UI/UX, avec des mises en page CSS complexes et une esthétique 'Dark Mode' moderne pour les plateformes SaaS IA.",
+  des: "A high-fidelity 'Figma-to-Code' implementation of a premium AI SaaS design. This project showcases advanced frontend skills, including complex CSS layouts, interactive dark-mode aesthetics, and ultra-responsive components designed for modern software platforms.",
+  desArab: "تطبيق عالي الدقة لتصميم Figma احترافي. يعرض المشروع مهارات متقدمة في واجهة المستخدم (UI/UX)، بما في ذلك تخطيطات CSS المعقدة، والجماليات الحديثة المتوافقة مع منصات الذكاء الاصطناعي.",
+  desFrecnh: "Implémentation haute fidélité d'un kit de design Figma premium. Ce projet démontre une maîtrise avancée du UI/UX, avec des mises en page CSS complexes et une esthétique 'Dark Mode' moderne pour les plateformes SaaS IA.",
 
-    img: "./brainwave.png", // Make sure to save a screenshot as this name
-    link: "https://modern-saas-ptototype.vercel.app/",
+  img: "./brainwave.png", 
+  link: "https://modern-saas-ptototype.vercel.app/",
 
-    tags: ["React", "Tailwind CSS", "Figma-to-Code", "Framer Motion", "UI/UX"],
-  },
+  tags: ["React", "Tailwind CSS", "Figma-to-Code", "Framer Motion", "UI/UX"],
+}
 ];
 
 // ── What I Can Do (Services) ──────────────────────────────────────────────────
