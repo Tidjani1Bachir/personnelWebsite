@@ -62,7 +62,7 @@ const RecentProjects = () => {
                     </div>
 
                     {/* Conditional rendering for the Product Manager Desktop App (ID: 2) */}
-                    {item.id === 2 && (
+                    {/* {item.id === 2 && (
                       <a 
                         href="https://github.com/Tidjani1Bachir/product_manager/releases/download/v2.0-desktop/product-manager_0.1.0_x64-setup.exe" 
                         target="_blank"
@@ -72,7 +72,7 @@ const RecentProjects = () => {
                       >
                         Download Desktop (.exe)
                       </a>
-                    )}
+                    )} */}
                   </div>
                 </PinContainer>
               </div>
