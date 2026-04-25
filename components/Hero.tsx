@@ -68,7 +68,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Bachir, a Full stack Developer based in Algeria Blida.
+            Hi! I&apos;m Bachir, a Software Engineer based in Algeria Blida.
           </p>
 
           {/* 
@@ -84,24 +84,27 @@ const Hero = () => {
 
           */}
 
-          <a href="#about">
+          <div className="mt-8 flex w-full max-w-xl flex-col-reverse items-center gap-4 sm:flex-row sm:justify-center sm:gap-5">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
+              handleClick={() => {
+                document.getElementById("about")?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }}
             />
-          </a>
-          <a 
-          href="/Tidjani_Bachir_CV.pdf"
-          target="_blank" 
-          rel="noopener noreferrer"
-          >
             <MagicButton
               title="View My Resume"
               icon={<FaLocationArrow />}
               position="right"
+              handleClick={() => {
+                window.open("/Tidjani_Bachir_CV.pdf", "_blank", "noopener,noreferrer");
+              }}
             />
-          </a>
+          </div>
         </div>
       </div>
     </div>

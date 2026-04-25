@@ -12,6 +12,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -86,10 +87,12 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
+              fill
               className={cn(imgClassName, "object-cover object-center ")}
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           )}
         </div>
@@ -98,10 +101,12 @@ export const BentoGridItem = ({
             } `}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
+              fill
               className="object-cover object-center w-full h-full"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           )}
         </div>
@@ -119,37 +124,59 @@ export const BentoGridItem = ({
             "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
           )}
         >
-          <div className="font-sans font-extralight md:max-w-36 md:text-2xl lg:text-4xl tex-blg sm:text-xs text-[#C1C2D3] z-10 lg:text-nowrap">
-            {description}
-          </div>
-          <div
-            className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
-          >
-            {title}
-          </div>
+          {id === 5 ? (
+            <div className="relative z-30 mt-1 w-full rounded-2xl border border-white/20 bg-black/60 p-4 md:p-5 shadow-[0_14px_40px_rgba(0,0,0,0.45)] backdrop-blur-md">
+              <div className="font-sans text-[10px] md:text-xs text-white/80 leading-relaxed">
+                {description}
+              </div>
+              <div className="mt-2 font-sans text-2xl md:text-3xl lg:text-4xl max-w-4xl font-bold text-white leading-tight drop-shadow-[0_3px_14px_rgba(0,0,0,0.85)]">
+                {title}
+              </div>
+              
 
-          {id === 5 &&
-            <span className="pb-52">
-              I build full-stack applications using{" "}
-              <span className="text-purple">React</span>,{" "}
-              <span className="text-purple">Next.js</span>,{" "}
-              <span className="text-purple">TypeScript</span>, and{" "}
-              <span className="text-purple">Node.js</span>.
-              On the frontend I use{" "}
-              <span className="text-purple">Tailwind CSS</span>,{" "}
-              <span className="text-purple">Framer Motion</span>,{" "}
-              <span className="text-purple">Aceternity UI</span>, and{" "}
-              <span className="text-purple">Shadcn UI</span>.
-              On the backend I build REST APIs with{" "}
-              <span className="text-purple">Express</span> and{" "}
-              <span className="text-purple">MongoDB</span>,
-              with JWT authentication, bcrypt, and security-first architecture.
-              I also build cross-platform desktop apps with{" "}
-              <span className="text-purple">Tauri</span>{" "}
-              and have experience configuring environments on both Windows and{" "}
-              <span className="text-purple">Debian-based Linux</span>.
-            </span>
-          }
+              <div className="mt-4 grid grid-cols-1 gap-2 text-sm md:text-base lg:text-lg">
+                <p className="text-white/90">
+                  <span className="font-semibold text-purple">Frontend:</span>{" "}
+                  React, Next.js, TypeScript, Tailwind CSS, Redux Toolkit, RTK Query
+                </p>
+                <p className="text-white/90">
+                  <span className="font-semibold text-purple">Backend:</span>{" "}
+                  Node.js, Express.js, REST APIs, JWT Auth, Secure File Uploads
+                </p>
+                <p className="text-white/90">
+                  <span className="font-semibold text-purple">Database:</span>{" "}
+                  MongoDB, Turso (SQLite), SQL, PostgreSQL, MySQL, MariaDB
+                </p>
+                <p className="text-white/90">
+                  <span className="font-semibold text-purple">Testing:</span>{" "}
+                  Vitest, Playwright, React Testing Library, Postman
+                </p>
+                <p className="text-white/90">
+                  <span className="font-semibold text-purple">Deployment &amp; Tools:</span>{" "}
+                  Git/GitHub, Vercel, Render, Cloudinary
+                </p>
+                <p className="text-white/90">
+                  <span className="font-semibold text-purple">OS &amp; Scripting:</span>{" "}
+                  Linux (Debian), Bash scripting, WSL, VirtualBox/VMware, Vim, Ollama (local AI)
+                </p>
+                <p className="text-white/90">
+                  <span className="font-semibold text-purple">Architecture:</span>{" "}
+                  MVC, Clean Architecture, UML
+                </p>
+              </div>
+            </div>
+          ) : (
+            <>
+              <div className="font-sans font-extralight md:max-w-36 md:text-2xl lg:text-4xl tex-blg sm:text-xs text-[#C1C2D3] z-10 lg:text-nowrap">
+                {description}
+              </div>
+              <div
+                className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 leading-tight`}
+              >
+                {title}
+              </div>
+            </>
+          )}
 
           {id === 2 && <GridGlobe />}
 
