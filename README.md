@@ -173,21 +173,6 @@ This project is deployed on **Vercel**:
 3. Vercel auto-detects Next.js — no extra config needed
 4. Click **Deploy** ✅
 
----
-
-## 🌍 Multilingual Support
-
-The portfolio supports 3 languages with separate data arrays for each:
-
-```typescript
-// Switch language by using the matching data array:
-import { navItems, navItemsArabic, navItemsFrench } from "@/data"
-import { gridItems, gridItemsArabic, gridItemsFrench } from "@/data"
-```
-
-Arabic content uses RTL layout handled via Tailwind's `dir` utilities.
-
----
 
 ## 📦 Key Dependencies
 
