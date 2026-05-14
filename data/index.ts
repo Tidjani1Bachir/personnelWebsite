@@ -135,20 +135,20 @@ export const projects = [
     tags: ["React", "Syncfusion", "Tailwind CSS", "Data Analytics"],
   },
   {
-  id: 4,
-  title: "Brainwave — Modern AI Landing Page",
-  titleArab: "Brainwave — صفحة هبوط للذكاء الاصطناعي",
-  titleFrench: "Brainwave — Page de Destination IA Moderne",
-
-  des: "A high-fidelity 'Figma-to-Code' implementation of a premium AI SaaS design. This project showcases advanced frontend skills, including complex CSS layouts, interactive dark-mode aesthetics, and ultra-responsive components designed for modern software platforms.",
-  desArab: "تطبيق عالي الدقة لتصميم Figma احترافي. يعرض المشروع مهارات متقدمة في واجهة المستخدم (UI/UX)، بما في ذلك تخطيطات CSS المعقدة، والجماليات الحديثة المتوافقة مع منصات الذكاء الاصطناعي.",
-  desFrecnh: "Implémentation haute fidélité d'un kit de design Figma premium. Ce projet démontre une maîtrise avancée du UI/UX, avec des mises en page CSS complexes et une esthétique 'Dark Mode' moderne pour les plateformes SaaS IA.",
-
-  img: "./brainwave2.png", 
-  link: "https://modern-saas-ptototype.vercel.app/",
-
-  tags: ["React", "Tailwind CSS", "Figma-to-Code", "Framer Motion", "UI/UX"],
-}
+      id: 4,
+      title: "Portfolio Landing Page — Based on ElzeroWebSchool Template",
+      titleArab: "صفحة هبوط — مبنية على قالب ElzeroWebSchool",
+      titleFrench: "Page de destination — Basée sur le template ElzeroWebSchool",
+  
+      des: "A Next.js 14 implementation of a ready-made HTML/CSS template originally created by the GitHub user ElzeroWebSchool. Rebuilt as a fully interactive single-page app with 12+ sections: Articles, Gallery, Features, Testimonials, Team Members, Services, Skills progress bars, How It Works, Latest Events (animated counters), Pricing Plans, Top Videos, and Discount form. Adds a fixed scroll progress bar, smooth useRef-based navigation, intersection-triggered animated counters, client-side form validation with color-coded feedback, and reusable CSS animation systems on top of the original design.",
+      desArab: "تطبيق Next.js 14 لقالب HTML/CSS جاهز أصلاً من إنشاء مستخدم GitHub المعروف بـ ElzeroWebSchool. أُعيد بناؤه كتطبيق أحادي الصفحة تفاعلي بأكثر من 12 قسمًا مع شريط تقدم التمرير، تنقل سلس، عدادات متحركة، تحقق من النماذج، ونظام رسوم متحركة CSS.",
+      desFrecnh: "Implémentation Next.js 14 d'un template HTML/CSS prêt à l'emploi créé à l'origine par l'utilisateur GitHub ElzeroWebSchool. Reconstruit en application monopage interactive avec 12+ sections, barre de progression, compteurs animés, validation de formulaire en temps réel et animations CSS réutilisables.",
+  
+      img: "./Template 3.png",
+      link: "https://tidjani1bachir.github.io/Template-For-Store/",
+  
+      tags: ["Next.js 14", "React", "Tailwind CSS", "FontAwesome", "CSS Animations"],
+    },
 ];
 
 // ── What I Can Do (Services) ──────────────────────────────────────────────────
