@@ -3,7 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Image from "next/image";
-
+import MagicButton from "./MagicButton";
 const RecentProjects = () => {
   return ( 
     <div id="projects" className="py-20">
@@ -11,10 +11,10 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple"> my recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-32 gap-y-32 ">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[37rem] h-[29rem] flex items-center mt-7 justify-center sm:w-96 w-[80vw]"
+            className="lg:min-h-[37rem] h-[29rem] flex items-center mt-15 justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
             {/* The main link for the project card */}
@@ -22,7 +22,7 @@ const RecentProjects = () => {
               title="click"
               href={item.link}
             >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-12">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -83,7 +83,16 @@ const RecentProjects = () => {
             </PinContainer>
           </div>
         ))}
+        <MagicButton
+                    title="View Business Analysis"
+                    icon={<FaLocationArrow />}
+                    position="left"
+                    handleClick={() => {
+                      window.open(" https://tidjani1bachir.github.io/business-analysis/", "_blank", "noopener,noreferrer");
+                    }}
+                  />
       </div>
+              
     </div>
   );
 };

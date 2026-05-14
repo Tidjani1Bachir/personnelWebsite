@@ -139,8 +139,7 @@ export const projects = [
       title: "Portfolio Landing Page — Based on ElzeroWebSchool Template",
       titleArab: "صفحة هبوط — مبنية على قالب ElzeroWebSchool",
       titleFrench: "Page de destination — Basée sur le template ElzeroWebSchool",
-  
-      des: "A Next.js 14 implementation of a ready-made HTML/CSS template originally created by the GitHub user ElzeroWebSchool. Rebuilt as a fully interactive single-page app with 12+ sections: Articles, Gallery, Features, Testimonials, Team Members, Services, Skills progress bars, How It Works, Latest Events (animated counters), Pricing Plans, Top Videos, and Discount form. Adds a fixed scroll progress bar, smooth useRef-based navigation, intersection-triggered animated counters, client-side form validation with color-coded feedback, and reusable CSS animation systems on top of the original design.",
+      des: "A modern single-page web application built with Next.js14, transforming a static HTML/CSS template by Elzero Web School into a fully interactive experience with 12+ responsive sections, smooth navigation, animated counters, reusable CSS animations, scroll progress tracking, and real-time client-side form validation.",
       desArab: "تطبيق Next.js 14 لقالب HTML/CSS جاهز أصلاً من إنشاء مستخدم GitHub المعروف بـ ElzeroWebSchool. أُعيد بناؤه كتطبيق أحادي الصفحة تفاعلي بأكثر من 12 قسمًا مع شريط تقدم التمرير، تنقل سلس، عدادات متحركة، تحقق من النماذج، ونظام رسوم متحركة CSS.",
       desFrecnh: "Implémentation Next.js 14 d'un template HTML/CSS prêt à l'emploi créé à l'origine par l'utilisateur GitHub ElzeroWebSchool. Reconstruit en application monopage interactive avec 12+ sections, barre de progression, compteurs animés, validation de formulaire en temps réel et animations CSS réutilisables.",
   
