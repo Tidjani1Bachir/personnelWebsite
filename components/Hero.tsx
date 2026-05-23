@@ -104,6 +104,14 @@ const Hero = () => {
                 window.open("/Tidjani_Bachir_CV.pdf", "_blank", "noopener,noreferrer");
               }}
             />
+            <MagicButton
+              title="Voir Mon CV"
+              icon={<FaLocationArrow />}
+              position="right"
+              handleClick={() => {
+                window.open("/Tidjani_Bachir_CVFraincais.pdf", "_blank", "noopener,noreferrer");
+              }}
+            />
           </div>
         </div>
       </div>
