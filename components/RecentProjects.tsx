@@ -35,13 +35,15 @@ const RecentProjects = () => {
                     sizes="(max-width: 640px) 80vw, 24rem"
                   />
                 </div>
-                <Image
+                {item.img && (
+                  <Image
                   src={item.img}
                   alt="cover"
                   fill
                   className="z-10 absolute bottom-0 object-cover"
                   sizes="(max-width: 640px) 80vw, 24rem"
                 />
+            )}
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -83,14 +85,17 @@ const RecentProjects = () => {
             </PinContainer>
           </div>
         ))}
-        <MagicButton
-                    title="View Business Analysis"
-                    icon={<FaLocationArrow />}
-                    position="left"
-                    handleClick={() => {
-                      window.open(" https://tidjani1bachir.github.io/business-analysis/", "_blank", "noopener,noreferrer");
-                    }}
-                  />
+        <div className="flex justify-center w-full">
+  <MagicButton
+    otherClasses="z-50 flex items-center gap-2"
+    title="View Business Analysis"
+    icon={<FaLocationArrow />}
+    position="left"
+    handleClick={() => {
+      window.open("https://tidjani1bachir.github.io/business-analysis/", "_blank", "noopener,noreferrer");
+    }}
+  />
+</div>
       </div>
               
     </div>

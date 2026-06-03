@@ -29,8 +29,8 @@ export const navItemsFrench = [
 export const gridItems = [
   {
     id: 1,
-    title: "I deliver fast, reliable full-stack solutions with clear communication at every step.",
-    description: "From idea to production — I keep you updated and involved.",
+    title: "I build complete web products — from the database to the interface — and ship them to real users.",
+    description: "Full-stack development: your idea becomes a live, working application.",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -39,8 +39,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Available for remote work worldwide — flexible with time zones.",
-    description: "Responsive, reliable, and easy to work with.",
+    title: "Open-source contributor with merged code in freeCodeCamp — used by millions of learners.",
+    description: "Proven ability to work in large codebases and meet professional standards.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -50,7 +50,7 @@ export const gridItems = [
   {
     id: 3,
     title: "Technologies I use",
-    description: "React · Next.js · Node.js · MongoDB · TypeScript · Tailwind CSS",
+    description: "React · Next.js · Node.js · PostgreSQL · TypeScript · AI APIs",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -59,8 +59,8 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Security-focused full-stack developer delivering clean, maintainable code.",
-    description: "Built for performance, scalability, and long-term use.",
+    title: "I add AI features to web apps — chatbots, smart workflows, and automated data processing.",
+    description: "Practical AI integrations, not just buzzwords.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -69,8 +69,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "I build production-ready applications — from APIs to modern user interfaces.",
-    description: "Web apps, dashboards, SaaS platforms, and desktop apps.",
+    title: "Every project I deliver is live, tested, and built to handle real users from day one.",
+    description: "E-commerce stores, SaaS dashboards, AI chatbots, and desktop apps.",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -79,8 +79,8 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Let’s build your project — fast, scalable, and ready for real users.",
-    description: "Contact me and let's get started.",
+    title: "Available worldwide, remote-ready, and easy to communicate with.",
+    description: "Let's talk about your project.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
@@ -148,6 +148,22 @@ export const projects = [
   
       tags: ["Next.js 14", "React", "Tailwind CSS", "FontAwesome", "CSS Animations"],
     },
+     {
+    id: 5,
+    title: "FlowCRM — AI Support Chatbot",
+    titleArab: "FlowCRM — روبوت دعم بالذكاء الاصطناعي",
+    titleFrench: "FlowCRM — Chatbot de Support IA",
+ 
+    des: "An AI-powered customer support chatbot built with Groq Llama 3.1, featuring intent detection, structured JSON responses, and an agentic lead-capture workflow that extracts customer info from natural conversations. Backed by a PostgreSQL database with Prisma ORM, automated email notifications via Resend, Zod validation, rate limiting, and a comprehensive Vitest test suite.",
+    desArab: "روبوت دعم عملاء مدعوم بالذكاء الاصطناعي باستخدام Groq Llama 3.1، يتميز باكتشاف النوايا وسير عمل ذكي لالتقاط بيانات العملاء من المحادثات الطبيعية. مدعوم بقاعدة بيانات PostgreSQL مع Prisma، وإشعارات بريد إلكتروني تلقائية، والتحقق من البيانات بـ Zod، وتقييد معدل الطلبات.",
+    desFrecnh: "Chatbot de support client propulsé par Groq Llama 3.1, avec détection d'intention, capture agentic de leads depuis des conversations naturelles, base de données PostgreSQL avec Prisma, notifications email via Resend, validation Zod, rate limiting et suite de tests Vitest complète.",
+ 
+    img: "./FlowCRM.png",
+    link: "https://flowcrm-ai-support.vercel.app",
+    github: "https://github.com/Tidjani1Bachir/flowcrm-ai-support",
+    tags: ["Groq Llama 3.1", "Next.js", "PostgreSQL", "Prisma", "AI Agents", "Vitest"],
+  },
+  
 ];
 
 // ── What I Can Do (Services) ──────────────────────────────────────────────────
@@ -196,6 +212,28 @@ export const workExperience = [
     descFrench: "Je développe des APIs REST performantes et des bases de données sécurisées. Expert en authentification, synchronisation de données et intégration de paiements PayPal.",
     className: "md:col-span-2",
     thumbnail: "./exp4.svg", // Ensure you have this icon or reuse exp2.svg
+  },
+   {
+    id: 5,
+    title: "AI-Powered Features & Integrations",
+    titleArab: "ميزات وتكاملات الذكاء الاصطناعي",
+    titleFrecn: "Fonctionnalités & Intégrations IA",
+    desc: "I integrate AI capabilities into existing or new web apps — including LLM-powered chatbots, intent detection, agentic workflows, and structured data extraction from natural language. Built with providers like Groq, OpenAI, and Anthropic.",
+    descArab: "أدمج قدرات الذكاء الاصطناعي في تطبيقات الويب — بما في ذلك روبوتات الدردشة، واكتشاف النوايا، وسير العمل الذكي، واستخراج البيانات من اللغة الطبيعية. باستخدام Groq وOpenAI وAnthropic.",
+    descFrench: "J'intègre des fonctionnalités IA dans des applications web — chatbots LLM, détection d'intention, workflows agentiques et extraction de données structurées depuis le langage naturel. Via Groq, OpenAI et Anthropic.",
+    className: "md:col-span-2",
+    thumbnail: "./exp1.svg",
+  },
+  {
+    id: 6,
+    title: "Automated Testing & Code Quality",
+    titleArab: "الاختبار التلقائي وجودة الكود",
+    titleFrecn: "Tests Automatisés & Qualité du Code",
+    desc: "I write comprehensive automated test suites using Vitest, Playwright, and React Testing Library — covering unit, integration, and end-to-end flows. Backed by a real merged PR into freeCodeCamp with 9/9 test coverage.",
+    descArab: "أكتب مجموعات اختبار شاملة باستخدام Vitest وPlaywright وReact Testing Library — تغطي اختبارات الوحدة والتكامل والتدفق الكامل. مدعوم بـ PR مدمج في freeCodeCamp بتغطية 9/9.",
+    descFrench: "Je rédige des suites de tests automatisés avec Vitest, Playwright et React Testing Library — couvrant les tests unitaires, d'intégration et end-to-end. Appuyé par un PR fusionné dans freeCodeCamp avec 9/9 tests.",
+    className: "md:col-span-2",
+    thumbnail: "./exp2.svg",
   },
 ];
 
