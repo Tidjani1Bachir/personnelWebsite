@@ -39,8 +39,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Open-source contributor with merged code in freeCodeCamp — used by millions of learners.",
-    description: "Proven ability to work in large codebases and meet professional standards.",
+    title: "",
+    description: "Open-source contributor with merged code in freeCodeCamp used by millions learners.",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -69,8 +69,8 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Every project I deliver is live, tested, and built to handle real users from day one.",
-    description: "E-commerce stores, SaaS dashboards, AI chatbots, and desktop apps.",
+    title: "",
+    description: "",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -120,19 +120,20 @@ export const projects = [
     link: "https://product-manager-chi-eosin.vercel.app",
     tags: ["React", "Tauri", "TypeScript", "Automated Testing"],
   },
-  {
+     {
     id: 3,
-    title: "Shoppy — Business Intelligence Dashboard",
-    titleArab: "Shoppy — لوحة تحكم ذكاء الأعمال",
-    titleFrench: "Shoppy — Tableau de bord Décisionnel",
-
-    des: "An all-in-one visual dashboard designed for data management. It features interactive charts, Kanban boards for task tracking, and a built-in calendar. Fully customizable with dark/light themes and 6 accent colors to match your corporate branding.",
-    desArab: "لوحة تحكم مرئية شاملة لإدارة البيانات. تتميز برسوم بيانية تفاعلية، لوحات مهام Kanban، وتقويم مدمج. قابلة للتخصيص بالكامل لتناسب هوية شركتك.",
-    desFrecnh: "Tableau de bord visuel pour la gestion de données. Comprend des graphiques interactifs, Kanban et calendrier. Entièrement personnalisable selon votre marque.",
-
-    img: "./adminApp.png",
-    link: "https://react-admin-dashboard-rbrf.vercel.app",
-    tags: ["React", "Syncfusion", "Tailwind CSS", "Data Analytics"],
+    title: "FlowCRM — AI Support Chatbot",
+    titleArab: "FlowCRM — روبوت دعم بالذكاء الاصطناعي",
+    titleFrench: "FlowCRM — Chatbot de Support IA",
+ 
+    des: "An AI-powered customer support chatbot built with Groq Llama 3.1, featuring intent detection, structured JSON responses, and an agentic lead-capture workflow that extracts customer info from natural conversations. Backed by a PostgreSQL database with Prisma ORM, automated email notifications via Resend, Zod validation, rate limiting, and a comprehensive Vitest test suite.",
+    desArab: "روبوت دعم عملاء مدعوم بالذكاء الاصطناعي باستخدام Groq Llama 3.1، يتميز باكتشاف النوايا وسير عمل ذكي لالتقاط بيانات العملاء من المحادثات الطبيعية. مدعوم بقاعدة بيانات PostgreSQL مع Prisma، وإشعارات بريد إلكتروني تلقائية، والتحقق من البيانات بـ Zod، وتقييد معدل الطلبات.",
+    desFrecnh: "Chatbot de support client propulsé par Groq Llama 3.1, avec détection d'intention, capture agentic de leads depuis des conversations naturelles, base de données PostgreSQL avec Prisma, notifications email via Resend, validation Zod, rate limiting et suite de tests Vitest complète.",
+ 
+    img: "./FlowCRM.png",
+    link: "https://flowcrm-ai-support.vercel.app",
+    github: "https://github.com/Tidjani1Bachir/flowcrm-ai-support",
+    tags: ["Groq Llama 3.1", "Next.js", "PostgreSQL", "Prisma", "AI Agents", "Vitest"],
   },
   {
       id: 4,
@@ -148,21 +149,7 @@ export const projects = [
   
       tags: ["Next.js 14", "React", "Tailwind CSS", "FontAwesome", "CSS Animations"],
     },
-     {
-    id: 5,
-    title: "FlowCRM — AI Support Chatbot",
-    titleArab: "FlowCRM — روبوت دعم بالذكاء الاصطناعي",
-    titleFrench: "FlowCRM — Chatbot de Support IA",
- 
-    des: "An AI-powered customer support chatbot built with Groq Llama 3.1, featuring intent detection, structured JSON responses, and an agentic lead-capture workflow that extracts customer info from natural conversations. Backed by a PostgreSQL database with Prisma ORM, automated email notifications via Resend, Zod validation, rate limiting, and a comprehensive Vitest test suite.",
-    desArab: "روبوت دعم عملاء مدعوم بالذكاء الاصطناعي باستخدام Groq Llama 3.1، يتميز باكتشاف النوايا وسير عمل ذكي لالتقاط بيانات العملاء من المحادثات الطبيعية. مدعوم بقاعدة بيانات PostgreSQL مع Prisma، وإشعارات بريد إلكتروني تلقائية، والتحقق من البيانات بـ Zod، وتقييد معدل الطلبات.",
-    desFrecnh: "Chatbot de support client propulsé par Groq Llama 3.1, avec détection d'intention, capture agentic de leads depuis des conversations naturelles, base de données PostgreSQL avec Prisma, notifications email via Resend, validation Zod, rate limiting et suite de tests Vitest complète.",
- 
-    img: "./FlowCRM.png",
-    link: "https://flowcrm-ai-support.vercel.app",
-    github: "https://github.com/Tidjani1Bachir/flowcrm-ai-support",
-    tags: ["Groq Llama 3.1", "Next.js", "PostgreSQL", "Prisma", "AI Agents", "Vitest"],
-  },
+  
   
 ];
 
